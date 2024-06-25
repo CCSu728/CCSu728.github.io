@@ -1,0 +1,1546 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<html xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://xbrl.org/2006/xbrldi http://www.xbrl.org/2006/xbrldi-2006.xsd" 
+xmlns:combined_entry_point="http://xbrl.ifrs.org/taxonomy/ifrs_sds/2024-04-26/ifrs_sds/ifrs_sds" 
+xmlns:gen="http://xbrl.org/2008/generic" 
+xmlns:ifrs-sds="https://xbrl.ifrs.org/taxonomy/2024-04-26/ifrs-sds" 
+xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" 
+xmlns:ifrs-ibg="https://xbrl.ifrs.org/taxonomy/2024-04-26/ifrs-ibg" 
+xmlns:rol_ifrs_s1_2024-04-26="https://xbrl.ifrs.org/role/ifrs_sds/rol_ifrs_s1_2024-04-26" 
+xmlns:xl="http://www.xbrl.org/2003/XLink" 
+xmlns:rol_dim="https://xbrl.ifrs.org/role/ifrs_sds/dimensions_2024-04-26" 
+xmlns:rol_ifrs_s2_2024-04-26="https://xbrl.ifrs.org/role/ifrs_sds/rol_ifrs_s2_2024-04-26" 
+xmlns:utr="http://www.xbrl.org/2009/utr" 
+xmlns:link="http://www.xbrl.org/2003/linkbase" 
+xmlns:enum2="http://xbrl.org/2020/extensible-enumerations-2.0" 
+xmlns:foxconn="https://www.honhai.com/zh-tw/" 
+xmlns:xlink="http://www.w3.org/1999/xlink" 
+xmlns:dtr-types_2="http://www.xbrl.org/dtr/type/2020-01-21" 
+xmlns:dtr-types="http://www.xbrl.org/dtr/type/2022-03-31" 
+xmlns:iso4217="http://www.xbrl.org/2003/iso4217" 
+xmlns:reference="http://xbrl.org/2008/reference" 
+xmlns:xbrldi="http://xbrl.org/2006/xbrldi" 
+xmlns:label="http://xbrl.org/2008/label" 
+xmlns:rol_ifrs_s2ibg_2024-04-26="https://xbrl.ifrs.org/role/ifrs_ibg/rol_ifrs_s2ibg_2024-04-26" 
+xmlns:xbrli="http://www.xbrl.org/2003/instance">
+<head> 
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	<title> 2317 2022 Sustainability report</title>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" type="text/javascript"></script> 
+	<script type="text/javascript"> 
+		/*<![CDATA[*/ 
+		function showChineseReport() { 
+			$(".zh").show();
+			$(".en").hide();
+		}
+		function showEnglishReport() {
+			$(".en").show();
+			$(".zh").hide();
+		}
+		$(document).ready(function() { 
+			if (location.search.indexOf("?") != -1 && 
+			location.search.split("?")[1].split("=")[1] == "en") 
+				showEnglishReport(); 
+			else 
+				showChineseReport(); 
+		});	
+		/*]]>*/ 
+	</script> 
+	<style type="text/css"> 
+		body,html {height: 100%;} 
+		body {font-size: 15px;font-family: Arial;color: #000;background: #4E5869;margin: 0;padding: 0;background-color: #FFF;} 
+		td,th {border: 1px solid #dddddd;padding: 5px;color: #333;background-color: #FFF;} 
+		table {table-layout: fixed;}
+		th#t1 {color: #165c98 !important;} 
+		ul,ol,dl {padding: 0;margin: 0;} 
+		h3 {color: #165c98;font-size: 18px;} 
+		pre {font-size: 15px;font-family: Arial;} 
+		.container {width: 100%;background: #FFF;margin: 0 auto;background-color: #999;} 
+		.header {text-align: center;background: #165c98;margin-right: auto;color: #fff;} 
+		.header > div:first-of-type {position: absolute;right: 15px;top: 15px;} 
+		.header > div:nth-of-type(2) {font-size: 25px;text-align: center;line-height: 35px;} 
+		.header a {text-decoration: none;margin:0 10px;color: #ffffff;} 
+		.nav {float: left;width: 200px;height: calc(100% - 85px);overflow: auto;background: #fff;padding-bottom: 15px;} 
+		.nav > div {padding: 10px;color: #165c98;font-size: 20px;font-weight: bold;} 
+		.nav > ul {list-style: none;border-top: 1px solid #666;margin-bottom: 15px;} 
+		.nav > ul li{border-bottom: 1px solid #666;} 
+		.nav > ul a{padding: 5px 2px 5px 10px;display: block;text-decoration: none;background: #fff;color: #333;} 
+		.nav > ul a:hover{background: #165c98;color: #fff;} 
+		.content {width: calc(100% - 200px);height: calc(100% - 70px); float: left;background: #efefef;overflow: auto;} 
+		.content > div[id*="link"] {height: 15px;} 
+		.content table {border-collapse: collapse;margin: 0 20px;} 
+		.content ul, 
+		.content ol {padding: 15px 10px 10px 15px;} 
+		.content table tr th {background: #7fcef5;color: #165c98;} 
+		.content table tr:first-child th {background: #165c98;color: #fff;font-size: 15px;text-align: left;} 
+		.content table tr:nth-of-type(odd) > td {background-color: #d3edfa;} 
+		.title {font-size: 18px;font-weight: bold;margin-left: 20px;} 
+		.rptidx {color: #000;margin-left: 20px;} 
+		.amt {text-align: right} 
+		.note {font-family: 細明體} 
+		@media print{ 
+			.header a{display: none;} 
+			.nav{display: none;} 
+			.content{width: 100%;height:auto;float: inherit;overflow: inherit;background: #fff!important;} 
+			.content table{width: 100%!important;margin: 0;} 
+			body{color: #000;} 
+			td,th{color: #000;border: 1px solid #000;} 
+		} 
+	</style> 
+</head> 
+<body> 
+	<div style="display:none"> 
+		<ix:header> 
+			<ix:references>
+				<link:schemaRef xlink:href="../ifrs_sds/ifrs_sds_2024-04-26.xsd" xlink:type="simple"/>
+			</ix:references>
+			<ix:resources>				 
+				<xbrli:context id="AsOf20221231">
+					<xbrli:entity>
+					  <xbrli:identifier scheme="https://www.twse.com.tw">2317</xbrli:identifier>
+					</xbrli:entity>
+					<xbrli:period>
+					  <xbrli:instant>2022-12-31</xbrli:instant>
+					</xbrli:period>
+				 </xbrli:context>
+				<xbrli:context id="From20220101to20221231">
+					<xbrli:entity>
+					  <xbrli:identifier scheme="https://www.twse.com.tw">2317</xbrli:identifier>
+					</xbrli:entity>
+					<xbrli:period>
+					  <xbrli:startDate>2022-01-01</xbrli:startDate>
+					  <xbrli:endDate>2022-12-31</xbrli:endDate>
+					</xbrli:period>
+				 </xbrli:context>
+				<xbrli:context id="Context_Duration_ShortTermMember">
+					<xbrli:entity>
+					  <xbrli:identifier scheme="https://www.twse.com.tw">2317</xbrli:identifier>
+					</xbrli:entity>
+					<xbrli:period>
+					  <xbrli:startDate>2022-01-01</xbrli:startDate>
+					  <xbrli:endDate>2022-12-31</xbrli:endDate>
+					</xbrli:period>
+					<xbrli:scenario>
+					  <xbrldi:explicitMember dimension="ifrs-sds:TimeHorizonAxis">ifrs-sds:ShortTermMember</xbrldi:explicitMember>
+					</xbrli:scenario>
+				  </xbrli:context>
+				<xbrli:context id="Context_Duration_MediumTermMember">
+					<xbrli:entity>
+					  <xbrli:identifier scheme="https://www.twse.com.tw">2317</xbrli:identifier>
+					</xbrli:entity>
+					<xbrli:period>
+					  <xbrli:startDate>2022-01-01</xbrli:startDate>
+					  <xbrli:endDate>2022-12-31</xbrli:endDate>
+					</xbrli:period>
+					<xbrli:scenario>
+					  <xbrldi:explicitMember dimension="ifrs-sds:TimeHorizonAxis">ifrs-sds:MediumTermMember</xbrldi:explicitMember>
+					</xbrli:scenario>
+				 </xbrli:context>
+				<xbrli:context id="Context_Duration_LongTermMember">
+					<xbrli:entity>
+					  <xbrli:identifier scheme="https://www.twse.com.tw">2317</xbrli:identifier>
+					</xbrli:entity>
+					<xbrli:period>
+					  <xbrli:startDate>2022-01-01</xbrli:startDate>
+					  <xbrli:endDate>2022-12-31</xbrli:endDate>
+					</xbrli:period>
+					<xbrli:scenario>
+					  <xbrldi:explicitMember dimension="ifrs-sds:TimeHorizonAxis">ifrs-sds:LongTermMember</xbrldi:explicitMember>
+					</xbrli:scenario>
+				 </xbrli:context>
+				<xbrli:context id="Context_Duration_ConsolidatedAccountingGroupMember">
+					<xbrli:entity>
+					  <xbrli:identifier scheme="https://www.twse.com.tw">2317</xbrli:identifier>
+					</xbrli:entity>
+					<xbrli:period>
+					  <xbrli:startDate>2022-01-01</xbrli:startDate>
+					  <xbrli:endDate>2022-12-31</xbrli:endDate>
+					</xbrli:period>
+					<xbrli:scenario>
+					  <xbrldi:explicitMember dimension="ifrs-sds:GHGEmissionsDisclosureBasisAxis">ifrs-sds:ConsolidatedAccountingGroupMember</xbrldi:explicitMember>
+					</xbrli:scenario>
+				 </xbrli:context>
+				<xbrli:context id="Context_Duration_OtherInvesteesExcludedFromConsolidatedAccountingGroupMember">
+					<xbrli:entity>
+					  <xbrli:identifier scheme="https://www.twse.com.tw">2317</xbrli:identifier>
+					</xbrli:entity>
+					<xbrli:period>
+					  <xbrli:startDate>2022-01-01</xbrli:startDate>
+					  <xbrli:endDate>2022-12-31</xbrli:endDate>
+					</xbrli:period>
+					<xbrli:scenario>
+					  <xbrldi:explicitMember dimension="ifrs-sds:GHGEmissionsDisclosureBasisAxis">ifrs-sds:OtherInvesteesExcludedFromConsolidatedAccountingGroupMember</xbrldi:explicitMember>
+					</xbrli:scenario>
+				 </xbrli:context>
+				<xbrli:unit id="Number">
+					<xbrli:measure>foxconn:number</xbrli:measure>
+				  </xbrli:unit>
+				  <xbrli:unit id="SquareFoot">
+					<xbrli:measure>utr:sqft</xbrli:measure>
+				 </xbrli:unit>
+				<xbrli:unit id="m3">
+					<xbrli:measure>utr:m3</xbrli:measure>
+				 </xbrli:unit>
+				<xbrli:unit id="Pure">
+					<xbrli:measure>xbrli:pure</xbrli:measure>
+				</xbrli:unit>
+				  <xbrli:unit id="tCO2e">
+					<xbrli:measure>utr:tCO2e</xbrli:measure>
+				 </xbrli:unit>
+			</ix:resources> 
+		</ix:header> 
+	</div> 
+	<div class="container"> 
+		<div class="header"> 
+			<div> 
+				<a href="javascript:showChineseReport();">中文</a>|<a href="javascript:showEnglishReport();">English</a> 
+			</div> 
+			<div>
+				<div> 
+					<span class="zh">2317 鴻海精密工業股份有限公司<br />2022年永續報告書</span> 
+					<span class="en">2317 HON HAI PRECISION IND. CO., LTD.<br />2022 Sustanability Report</span>
+				</div>
+			</div> 
+		</div> 
+		<div class="nav"> 
+			<ul>
+				<li>
+					<a style="background-color:#ceceef;">
+						<span class="zh">氣候相關揭露</span>
+						<span class="en">Climate-related Disclosures</span> 
+					</a>
+				</li>
+				<li>
+					<a href="#Governance">
+						<span class="zh">治理</span>
+						<span class="en">Governance</span>
+					</a>
+				</li>
+				<li>
+					<a href="#Strategy-RO">
+						<span class="zh">策略 - 氣候相關風險與機會</span>
+						<span class="en">Strategy - Climate-related risks and opportunities</span>
+					</a>
+				</li>
+				<li>
+					<a href="#Strategy-BV">
+						<span class="zh">策略 - 經營模式及價值鏈</span>
+						<span class="en">Strategy -  Business model and value chain</span>
+					</a>
+				</li>
+				<li>
+					<a href="#Strategy-FFC">
+						<span class="zh">策略 - 財務狀況、財務績效及現金流量</span>
+						<span class="en">Strategy - Financial position, financial performance and cash flows</span>
+					</a>
+				</li>
+				<li>
+					<a href="#Strategy-R">
+						<span class="zh">策略 - 氣候韌性</span> 
+						<span class="en">Strategy - Climate resilience</span>
+					</a>
+				</li>
+				<li>
+					<a href="#Risk-management">
+						<span class="zh">風險管理</span>
+						<span class="en">Risk management</span>
+					</a>
+				</li>
+				<li>
+					<a href="#MetricAndTarget">
+						<span class="zh">指標與目標</span>
+						<span class="en">Metrics and targets</span>
+					</a>
+				</li>
+				<li>
+					<a style="background-color:#ceceef;">
+						<span class="zh">行業基礎施行指引</span>
+						<span class="en">Industry-based Guidance</span> 
+					</a>
+				</li>
+				<li>
+					<a href="#TopicAndIndex">
+						<span class="zh">永續揭露主題及指標</span>
+						<span class="en">Sustainability Disclosure Topics and Metrics</span>
+					</a>
+				</li>
+				<li>
+					<a href="#Activity-metric">
+						<span class="zh">活動指標</span>
+						<span class="en">Activity Metrics</span>
+					</a>
+				</li>
+			</ul> 
+		</div> 
+		<div class="content">
+			<!-- 氣候相關揭露 -->
+			<!-- 治理 -->
+			<div class="rptidx"><span class="zh">氣候相關揭露</span><span class="en">Climate-related Disclosures</span></div>
+			<div id="Governance"></div> 
+				<table width="90%" style="table-layout:fixed"> 
+					<tr><th colspan="2"><span class="zh">治理</span><span class="en">Governance</span></th></tr>
+					<tr> 
+						<th colspan="1"><span class="zh" class="Governance">治理</span><span class="en">Governance</span></th> 
+						<th><span class="zh">2022年度</span><span class="en">2022</span></th>
+					</tr> 
+					<tr> 
+						<td style="white-space:pre-wrap;word-break:break-all;" width="90%"><span class="zh">Governance processes, controls and procedures used to monitor and manage climate-related risks and opportunities</span><span class="en">Governance processes, controls and procedures used to monitor and manage climate-related risks and opportunities</span></td>
+						<td><span class="zh"><pre></pre></span><span class="en"><pre></pre></span></td>
+					</tr> 
+					<tr> 
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td style="white-space:pre-wrap;word-break:break-all;" width="90%"><span class="zh">　　Identity of governance body(s) or individual(s) responsible for oversight of risks and opportunities</span><span class="en">　　Identity of governance body(s) or individual(s) responsible for oversight of risks and opportunities</span></td>
+						<td style="white-space: pre-wrap;word-break: break-all;" width="90%"><span class="zh"><pre><ix:nonNumeric name="ifrs-sds:IdentityOfGovernanceBodysOrIndividualsResponsibleForOversightOfRisksAndOpportunitiesExplanatory" contextRef="From20220101to20221231" xml:lang="zh" escape="true">鴻海針對氣候變遷議題的管理由董事會負責監督，向下依據不同職能單位進行專業分工。(p.11)</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-sds:IdentityOfGovernanceBodysOrIndividualsResponsibleForOversightOfRisksAndOpportunitiesExplanatory" contextRef="From20220101to20221231" xml:lang="en" escape="true">Hon Hai’s management of climate change issues is supervised by the Board of Directors and segregated into different functional units. (TCFD P.11)</ix:nonNumeric></pre></span></td>
+					</tr>
+					<tr> 
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td rulestyle="white-space:pre-wrap;word-break:break-all;" width="90%"><span class="zh">　　How responsibilities for risks and opportunities are reflected in terms of reference, mandates, role descriptions and other related policies applicable to responsible body(s) or individual(s)</span><span class="en">　　How responsibilities for risks and opportunities are reflected in terms of reference, mandates, role descriptions and other related policies applicable to responsible body(s) or individual(s)</span></td>
+						<td style="white-space: pre-wrap;word-break: break-all;" width="90%"><span class="zh"><pre><ix:nonNumeric name="ifrs-sds:HowResponsibilitiesForRisksAndOpportunitiesAreReflectedInTermsOfReferenceMandatesRoleDescriptionsAndOtherRelatedPoliciesApplicableToResponsibleBodysOrIndividualsExplanatory" contextRef="From20220101to20221231" xml:lang="en" escape="true">鴻海氣候治理相關組織架構說明：
+董事會：監督集團整體氣候議題管理，每年確認集團氣候相關目標達成情形；
+
+永續準則委員會：隸屬董事會，由劉揚偉董事長擔任委員會主席。負責集團永續發展相關制度及規範、監督公司永續發展政策與計畫、定期追蹤與評估永續發展執行進度與成效，每年向董事會報告相關進度。
+
+TCFD 核心工作小組：工作小組包含永續委員會及集團中央管理單位。負責與內外部利害關係人協調溝通氣候議題、鑑別氣候議題的因應措施及氣候議題執行策略擬定，並且依照氣候相關風險議題進行分類及評估重大性：
+	政策法規面（全球氣候相關政策法規，包含碳交易、碳稅、節能減碳等管理及執行層面）
+	市場面（利害關係人、供需市場需求變化，與低碳相關研發與創新等管理及執行層面）
+	實體風險面（極端氣候事件發生、平均氣溫上升等議題所需，資源使用能效提升，及氣候災害預防、應變的管理及執行層面）
+(p.11)</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-sds:HowResponsibilitiesForRisksAndOpportunitiesAreReflectedInTermsOfReferenceMandatesRoleDescriptionsAndOtherRelatedPoliciesApplicableToResponsibleBodysOrIndividualsExplanatory" contextRef="From20220101to20221231" xml:lang="en" escape="true">Organizational structure for climate governance at Hon Hai Board of Directors:
+Supervise the Group’s overall management of climate issues and confirm the Group’s progress on climate-related goals each year Sustainability Committee:
+Headed by Chairman Young Liu and reports directly to the Board. Formulate systems and regulations for sustainable development, monitor corporate sustainable development policies and plans, periodically track and assess implementation progress and performance of sustainable development tasks, and report said progress to the Board each year TCFD Core Working Groups:
+TCFD Core Working Group include Sustainability Committee and Group central management units Coordinate and communicate climate issues with internal and external stakeholders, identify response measures to climate issues, formulate implementation strategies for climate issues, and categorize and assess materiality of climate-related risks and issues: 
+• Policies and laws (Management and implementation related to all climate-related policies and regulations around the world, including those associated with carbon trading, carbon taxes, and energy conservation and carbon reduction) 
+• Market (Management and implementation related to stakeholders, changes in market demand and supply, and low-carbon R&amp;D and innovation) 
+• Physical risks (Management and implementation related to extreme weather events, increased average temperatures, enhanced resource usage efficiency, and prevention and responses to climate-related disasters)
+(TCFD P.11)</ix:nonNumeric></pre></span></td>
+					</tr> 
+					<tr> 
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">　　How responsible body(s) or individual(s) determines appropriate skills and competencies are available or will be developed to oversee strategies to respond to risks and opportunities</span><span class="en">　　How responsible body(s) or individual(s) determines appropriate skills and competencies are available or will be developed to oversee strategies to respond to risks and opportunities</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-sds:HowResponsibleBodysOrIndividualsDeterminesAppropriateSkillsAndCompetenciesAreAvailableOrWillBeDevelopedToOverseeStrategiesToRespondToRisksAndOpportunitiesExplanatory" contextRef="From20220101to20221231" xml:lang="zh" escape="true">未來持續提升董事會成員在永續發展上的知能，集團每年將辦理教育訓練，要求董事會成員完訓，其教育訓練細節請參考 2022 年財務年報。</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-sds:HowResponsibleBodysOrIndividualsDeterminesAppropriateSkillsAndCompetenciesAreAvailableOrWillBeDevelopedToOverseeStrategiesToRespondToRisksAndOpportunitiesExplanatory" contextRef="From20220101to20221231" xml:lang="en" escape="true">In future, we will continue to enhance director knowledge of sustainable developments. The Group hosts mandatory training for directors each year. Please refer to our 2022 Annual Report for more information on director training. Key events within the Group are disclosed at annual shareholders meetings and investor conferences.
+( Sustainability Report P.21)</ix:nonNumeric></pre></span></td>
+					</tr> 
+					<tr> 
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">　　How and how often responsible body(s) or individual(s) is informed about risks and opportunities</span><span class="en">　　How and how often responsible body(s) or individual(s) is informed about risks and opportunities</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-sds:HowAndHowOftenResponsibleBodysOrIndividualsIsInformedAboutRisksAndOpportunitiesExplanatory" contextRef="From20220101to20221231" xml:lang="zh" escape="true">永續委員會負責集團永續發展相關制度及規範、監督公司永續發展政策與計畫、定期追蹤與評估永續發展執行進度與成效，每年向董事會報告相關進度。永續委員會隸屬董事會定期向董事長報告進度，並由劉揚偉董事長擔任委員會主席。(p.11)</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-sds:HowAndHowOftenResponsibleBodysOrIndividualsIsInformedAboutRisksAndOpportunitiesExplanatory" contextRef="From20220101to20221231" xml:lang="en" escape="true">Sustainability Committee formulates systems and regulations for sustainable development, monitor corporate sustainable development policies and plans, periodically track and assess implementation progress and performance of sustainable development tasks, and report said progress to the Board each year.
+The “Sustainability Committee,” which is headed by Chairman Young Liu, is responsible for reporting said progress to the Board each year.
+(TCFD P.11)</ix:nonNumeric></pre></span></td>
+					</tr> 
+					<tr> 
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">　　How responsible body(s) or individual(s) takes into account risks and opportunities when overseeing strategy, decisions on major transactions and risk management processes and related policies</span><span class="en">　　How responsible body(s) or individual(s) takes into account risks and opportunities when overseeing strategy, decisions on major transactions and risk management processes and related policies</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-sds:HowResponsibleBodysOrIndividualsTakesIntoAccountRisksAndOpportunitiesWhenOverseeingStrategyDecisionsOnMajorTransactionsAndRiskManagementProcessesAndRelatedPoliciesExplanatory" contextRef="From20220101to20221231" xml:lang="zh" escape="true">鴻海氣候風險與機會鑑別與評估流程：
+利害關係人議合：為了解內外部聚焦的氣候議題，進行利害關係人關注程度之鑑別。</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-sds:HowResponsibleBodysOrIndividualsTakesIntoAccountRisksAndOpportunitiesWhenOverseeingStrategyDecisionsOnMajorTransactionsAndRiskManagementProcessesAndRelatedPoliciesExplanatory" contextRef="From20220101to20221231" xml:lang="en" escape="true">Process for identifying and evaluating climate-related risks and opportunities at Hon Hai Stakeholder engagement: Identify internal and external focuses on climate issues in order to understand climate issues of concern to stakeholders.(TCFD P.11)</ix:nonNumeric></pre></span></td>
+					</tr>
+					<tr> 
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">　　 　　 Responsible body(s) or individual(s) considered trade-offs associated with climate-related risks and opportunities</span><span class="en">　　 　　 Responsible body(s) or individual(s) considered trade-offs associated with climate-related risks and opportunities</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-sds:ResponsibleBodysOrIndividualsConsideredTradeoffsAssociatedWithClimaterelatedRisksAndOpportunities" contextRef="From20220101to20221231" xml:lang="en" escape="true">true</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-sds:ResponsibleBodysOrIndividualsConsideredTradeoffsAssociatedWithClimaterelatedRisksAndOpportunities" contextRef="From20220101to20221231" xml:lang="en" escape="true">true</ix:nonNumeric></pre></span></td>
+					</tr>
+					<tr> 
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">　　How body(s) or individual(s) oversees setting of targets related to risks and opportunities, and monitors progress towards those targets</span><span class="en">　　How body(s) or individual(s) oversees setting of targets related to risks and opportunities, and monitors progress towards those targets</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-sds:HowBodysOrIndividualsOverseesSettingOfTargetsRelatedToRisksAndOpportunitiesAndMonitorsProgressTowardsThoseTargetsExplanatory" contextRef="From20220101to20221231" xml:lang="zh" escape="true">「永續委員會」每年向董事會報告相關進度，並由劉揚偉董事長擔任委員會主席。委員會下設推動辦公室，其設有專職團隊，負責編修集團永續發展相關制度及規範、監督公司永續發展政策與計畫、定期追蹤與評估永續發展執行進度與成效。</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-sds:HowBodysOrIndividualsOverseesSettingOfTargetsRelatedToRisksAndOpportunitiesAndMonitorsProgressTowardsThoseTargetsExplanatory" contextRef="From20220101to20221231" xml:lang="en" escape="true">The “Sustainability Committee,” which is headed by Chairman Young Liu, is responsible for reporting said progress to the Board each year. A promotion office staffed with a dedicated team has been established under Sustainability Committee to formulate systems and regulations for sustainable development, monitor corporate sustainable development policies and plans, periodically track and assess implementation progress and performance of sustainable development tasks. (TCFD P.11)</ix:nonNumeric></pre></span></td>
+					</tr>
+					<tr> 
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">　　 　　 Whether and how related performance metrics are included in remuneration policies</span><span class="en">　　 　　 Whether and how related performance metrics are included in remuneration policies</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-sds:WhetherAndHowRelatedPerformanceMetricsAreIncludedInRemunerationPoliciesExplanatory" contextRef="From20220101to20221231" xml:lang="zh" escape="true">鴻海為鼓勵、有效提升員工對於氣候變遷的重視，並融為集團組織的核心文化，集團大陸地區每年將節能減碳目標細部分配至各事業群，制定《節能管理考核項目與評分規則》，依據規則中的節能管理、節能體系、節能實施、節能督導、節能 KPI 等項目進行評分，每季、每年皆會進行全面考核，並每年定期檢討與修正，頒發金賞獎等獎項，並針對表現優秀之團隊與個人給予獎勵金，獎勵金包含獎勵團隊基層人員，以及後續單位推動節能專案之用。2021 年總計發放 157 萬元新台幣，共表揚 5 個團隊和 5 位節能工作推動表現出色個人。(p.20)</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-sds:WhetherAndHowRelatedPerformanceMetricsAreIncludedInRemunerationPoliciesExplanatory" contextRef="From20220101to20221231" xml:lang="en" escape="true">To encourage and effectively enhance employee emphasis on climate change, we have incorporated relevant concepts in the Group’s core organizational culture. We distribute energy and carbon reduction targets to our businesses in the China region each year and formulate the “Appraisal Items and Scoring Guidelines for Energy Management” which includes scores for energy conservation management, energy conservation systems, energy conservation implementations, supervision of energy conservation, and other energy conservation KPIs. We conduct comprehensive quarterly and annual appraisals, as well as periodic reviews and corrections each year, and present awards and monetary rewards to outstanding teams and individuals to provide an incentive for entry-level personnel and for subsequent implementation of energy conservation projects. In 2021, we awarded 1.57 million NTD to 5 teams and 5 individuals with outstanding energy-saving contributions. ( TCFD P20)</ix:nonNumeric></pre></span></td>
+					</tr>
+					<tr> 
+						<td><span class="zh">　　　　　　Climate-related performance metrics are included in remuneration policies</span><span class="en">　　　　　　Climate-related performance metrics are included in remuneration policies</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-sds:ClimaterelatedPerformanceMetricsAreIncludedInRemunerationPolicies" contextRef="From20220101to20221231" xml:lang="en" escape="true">true</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-sds:ClimaterelatedPerformanceMetricsAreIncludedInRemunerationPolicies" contextRef="From20220101to20221231" xml:lang="en" escape="true">true</ix:nonNumeric></pre></span></td>
+					</tr>
+					<tr> 
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">　　 　　 Management's role in governance processes, controls and procedures used to monitor, manage and oversee risks and opportunities</span><span class="en">　　 　　 Management's role in governance processes, controls and procedures used to monitor, manage and oversee risks and opportunities</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-sds:ManagementsRoleInGovernanceProcessesControlsAndProceduresUsedToMonitorManageAndOverseeRisksAndOpportunitiesExplanatory" contextRef="From20220101to20221231" xml:lang="zh" escape="true">永續委員會：
+負責集團永續發展相關制度及規範、監督公司永續發展政策與計畫、定期追蹤與評估永續發展執行進度與成效，每年向董事會報告相關進度。
+TCFD 核心工作小組：
+包含永續委員會及集團中央管理單位。負責與內外部利害關係人協調溝通氣候議題、鑑別氣候議題的因應措施及氣候議題執行策略擬定，並且依照氣候相關風險議題進行分類及評估重大性。(p.11)</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-sds:ManagementsRoleInGovernanceProcessesControlsAndProceduresUsedToMonitorManageAndOverseeRisksAndOpportunitiesExplanatory" contextRef="From20220101to20221231" xml:lang="en" escape="true">Sustainability Committee: Headed by Chairman Young Liu and reports directly to the Board. Formulate systems and regulations for sustainable development, monitor corporate sustainable development policies and plans, periodically track and assess implementation progress and performance of sustainable development tasks, and report said progress to the Board each year.
+TCFD Core Working Groups: TCFD Core Working Group include Sustainability Committee and Group central management units Coordinate and communicate climate issues with internal and external stakeholders, identify response measures to climate issues, formulate implementation strategies for climate issues, and categorize and assess materiality of climate-related risks and issues.
+(TCFD P.11)</ix:nonNumeric></pre></span></td>
+					</tr>
+					<tr> 
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">　　 　　 Management's role in governance processes, controls and procedures used to monitor, manage and oversee risks and opportunities</span><span class="en">　　 　　 Management's role in governance processes, controls and procedures used to monitor, manage and oversee risks and opportunities</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-sds:WhetherManagementsRoleInGovernanceProcessesControlsAndProceduresUsedToMonitorManageAndOverseeRisksAndOpportunitiesIsDelegatedToSpecificPositionOrCommitteeAndHowOversightIsExercisedExplanatory" contextRef="From20220101to20221231" xml:lang="zh" escape="true">永續委員會隸屬董事會，由劉揚偉董事長擔任委員會主席。永續委員會定期與 ESG 小組追蹤32 項目標進度，其中包含環境面向共 8 項長程目標（詳細目標推動方向與績效請參考「6.1 淨零績效評估指標及年度達成情形」）。</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-sds:WhetherManagementsRoleInGovernanceProcessesControlsAndProceduresUsedToMonitorManageAndOverseeRisksAndOpportunitiesIsDelegatedToSpecificPositionOrCommitteeAndHowOversightIsExercisedExplanatory" contextRef="From20220101to20221231" xml:lang="en" escape="true">The Sustainability Committee periodically meets with the ESG teams and tracks the 32 ESG goals, which include 8 environmental long-term goals (for more information on goal implementation and performance, please refer to “6. Net Zero Performance and Outlook”).(TCFD P.11)</ix:nonNumeric></pre></span></td>
+					</tr>
+					<tr> 
+						<td><span class="zh">　　　　　　Management's role in governance processes, controls and procedures used to monitor, manage and oversee climate-related risks and opportunities is delegated to specific position or committee</span><span class="en">　　　　　　Management's role in governance processes, controls and procedures used to monitor, manage and oversee climate-related risks and opportunities is delegated to specific position or committee</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-sds:ManagementsRoleInGovernanceProcessesControlsAndProceduresUsedToMonitorManageAndOverseeClimaterelatedRisksAndOpportunitiesIsDelegatedToSpecificPositionOrCommittee" contextRef="From20220101to20221231" xml:lang="en" escape="true">true</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-sds:ManagementsRoleInGovernanceProcessesControlsAndProceduresUsedToMonitorManageAndOverseeClimaterelatedRisksAndOpportunitiesIsDelegatedToSpecificPositionOrCommittee" contextRef="From20220101to20221231" xml:lang="en" escape="true">true</ix:nonNumeric></pre></span></td>
+					</tr>
+					<tr> 
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">　　 　　 Whether management uses controls and procedures to support oversight of risks and opportunities, and how those are integrated with other internal functions</span><span class="en">　　 　　 Whether management uses controls and procedures to support oversight of risks and opportunities, and how those are integrated with other internal functions</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-sds:WhetherManagementUsesControlsAndProceduresToSupportOversightOfRisksAndOpportunitiesAndHowThoseAreIntegratedWithOtherInternalFunctionsExplanatory" contextRef="From20220101to20221231" xml:lang="zh" escape="true">淨零績效評估指標：
+為達成鴻海淨零未來的願景，集團針對淨零排放、綠色能源、節水環保、減廢循環等多個面向，以 2020 年為基準年，提出應對綠色保護目標承諾，除了集團的整體性目標之外，亦將集團目標向下規劃至對應各廠區、各部門每年須達成之細項目標，並追蹤管理成效，定期審視成果。</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-sds:WhetherManagementUsesControlsAndProceduresToSupportOversightOfRisksAndOpportunitiesAndHowThoseAreIntegratedWithOtherInternalFunctionsExplanatory" contextRef="From20220101to20221231" xml:lang="en" escape="true">Net Zero Performance Assessment Indicators and Annual Achievements:
+To achieve Hon Hai’s net zero vision, we set 2020 as our base year and proposed corresponding environmental protection goals and commitments related to net zero emissions, green resources, water conservation and environmental protection, waste reduction and recycling. Apart from the Group’s overall goals, we have also formulated annual targets for each factory and department, which we periodically track and review. (TCFD P.30)</ix:nonNumeric></pre></span></td>
+					</tr>
+					<tr> 
+						<td><span class="zh">　　　　　　Management uses controls and procedures to support oversight of climate-related risks and opportunities</span><span class="en">　　　　　　Management uses controls and procedures to support oversight of climate-related risks and opportunities</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-sds:ManagementUsesControlsAndProceduresToSupportOversightOfClimaterelatedRisksAndOpportunities" contextRef="From20220101to20221231" xml:lang="en" escape="true">true</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-sds:ManagementUsesControlsAndProceduresToSupportOversightOfClimaterelatedRisksAndOpportunities" contextRef="From20220101to20221231" xml:lang="en" escape="true">true</ix:nonNumeric></pre></span></td>
+					</tr>
+					<tr> 
+						<td><span class="zh">Topic(s) covered by integrated governance disclosure</span><span class="en">Topic(s) covered by integrated governance disclosure</span></td>
+						<td class="amt"></td>
+					</tr>
+					<tr> 
+						<td><span class="zh">Other disclosures about governance processes, controls and procedures used to monitor, manage and oversee risks and opportunities</span><span class="en">Other disclosures about governance processes, controls and procedures used to monitor, manage and oversee risks and opportunities</span></td>
+						<td class="amt"></td>
+					</tr>
+				</table> 
+				<br />
+			
+			<!-- 策略 -->
+			<!-- 風險與機會 -->
+			<div id="Strategy-RO"></div>
+			<div class="rptidx"><span class="zh">策略</span><span class="zh">Strategy</span></div> 
+				<table style="width:90%" style="table-layout:fixed;">
+					<tr><th colspan="2"><span class="zh">策略-風險與機會-氣候相關風險或機會</span><span class="en">Climate-related risks and opportunities</span></th></tr> 
+					<tr> 
+						<th><span class="zh">策略-風險與機會-氣候相關風險或機會</span><span class="en">Climate-related risks and opportunities</span></th> 
+						<th><span class="zh">2022年度</span><span class="en">2022</span></th>
+					</tr> 
+					<tr>
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">　　Description of risk or opportunity</span><span class="en">　　Description of risk or opportunity</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-sds:DescriptionOfRiskOrOpportunityExplanatory" contextRef="From20220101to20221231" xml:lang="zh" escape="true">針對轉型風險、實體風險及機會等議題，與鴻海相關 主責單位舉辦工作坊研討，進一步進行複合性分析，藉由 考量衝擊可能性及衝擊程度評估出之重大性風險值，並參 考利害關係人關注議題結果，歸納與統整出集團之重大氣 候相關風險與機會，共計 3 項重大風險與 3 項重大機會。
+藉由矩陣圖分析結果得知，對集團影響較重大的氣候風險分別為「市場訊息不確定」、「利害關係人的關注或 反饋增加」、「再生能源需求增加與電力法規限制」；氣候機會分別為「多元低碳產品與服務的研發創新與市場」、 「使用更高效率的生產和配銷流程」、「減少水資源的使 用與回收再利用」。(TFCD-P14)</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-ibg:DescriptionOfRiskOrOpportunityExplanatory" contextRef="From20220101to20221231" xml:lang="en" escape="true">We organized workshops to discuss transition risks, physical risks, and opportunities with responsible units at Hon Hai, and also conducted composite analyses to determine materiality risks based on the likelihoods and magnitudes of impacts, then combined these with stakeholder engagement results to summarize the Group’s major climate-related risks and opportunities, generating a total of 3 material risks and 3 material opportunities. 
+Hon Hai’s matrix of climate-related risks and opportunities shows that material climate risks most relevant to the Group are “uncertainty in market information,” “increased stakeholder concern or feedback,” and “increased need for renewable energies and limitations of electricity regulations”; climate opportunities included “R&amp;D, innovation, and markets for diverse low-carbon products and services,” “use of high-efficiency production and distribution processes,” and “reduced usage, recycling, and reuse of water resources.” Please refer to the following table for relevant management strategies and impacts.
+(TCFD P.14)</pre></span></td>
+					</tr> 
+					<tr>
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">　　　　Topic(s) of risk or opportunity</span><span class="en">　　　　Topic(s) of risk or opportunity</span></td>
+						<td><span class="zh"><pre></pre></span><span class="en"><pre></pre></span></td>
+					</tr>
+					<tr>
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">　　　　Category of climate-related risk</span><span class="en">　　　　Category of climate-related risk</span></td>
+						<td><span class="zh"><pre></pre></span><span class="en"><pre></pre></span></td>
+					</tr>
+					<tr>
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">　　Time horizon(s) over which effects of risk or opportunity could reasonably be expected to occur</span><span class="en">　　Time horizon(s) over which effects of risk or opportunity could reasonably be expected to occur</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-ibg:TimeHorizonsOverWhichEffectsOfRiskOrOpportunityCouldReasonablyBeExpectedToOccurExplanatory" contextRef="From20220101to20221231" xml:lang="zh" escape="true">短期（1年以下）；中期 （1~3 年）；長期 （3 年以上）(TFCD-P15)</ix:nonNumeric></pre></span><span class="en"><pre></pre></span></td>
+					</tr>
+					<tr>
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">　　　　Time horizon(s) over which effects of risk or opportunity could reasonably be expected to occur</span><span class="en">　　　　Time horizon(s) over which effects of risk or opportunity could reasonably be expected to occur</span></td>
+						<td><span class="zh"><pre></pre></span><span class="en"><pre></pre></span></td>
+					</tr>
+				</table> 
+				<br />
+			
+			<!-- 時間區間 -->
+			<div></div> 
+				<table style="width:90%" style="table-layout:fixed;"> 
+					<tr><th colspan="4"><span class="zh">策略-風險與機會-時間區間</span><span class="en">Time horizon</span></th></tr> 
+					<tr> 
+						<th><span class="zh"></span></th> 
+						<th colspan='3'><span class="zh">2022年度</span><span class="en">2022</span></th>
+					</tr>
+					<tr> 
+						<th><span class="zh"></span></th>
+						<th><span class="zh">短期</span><span class="en">Short term</span></th> 
+						<th><span class="zh">中期</span><span class="en">Medium term</span></th>
+						<th><span class="zh">長期</span><span class="en">Long term</span></th>
+					</tr>
+					<tr>
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">Definition of time horizon</span><span class="en">Definition of time horizon</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-ibg:DefinitionOfTimeHorizonExplanatory" contextRef="Context_Duration_ShortTermMember" xml:lang="zh" escape="true">1年以下</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-ibg:DefinitionOfTimeHorizonExplanatory" contextRef="Context_Duration_ShortTermMember" xml:lang="zh" escape="true">1 year</ix:nonNumeric></pre></span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-ibg:DefinitionOfTimeHorizonExplanatory" contextRef="Context_Duration_MediumTermMember" xml:lang="zh" escape="true">1~3 年</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-ibg:DefinitionOfTimeHorizonExplanatory" contextRef="Context_Duration_MediumTermMember" xml:lang="zh" escape="true">1-3 years</ix:nonNumeric></pre></span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-ibg:DefinitionOfTimeHorizonExplanatory" contextRef="Context_Duration_LongTermMember" xml:lang="zh" escape="true">3 年以上</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-ibg:DefinitionOfTimeHorizonExplanatory" contextRef="Context_Duration_LongTermMember" xml:lang="zh" escape="true">more than 3 years</ix:nonNumeric></pre></span></td>
+					</tr> 
+					<tr>
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">How definition of time horizon(s) is linked to planning horizons used for strategic decision-making</span><span class="en">How definition of time horizon(s) is linked to planning horizons used for strategic decision-making</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-ibg:HowDefinitionOfTimeHorizonsIsLinkedToPlanningHorizonsUsedForStrategicDecisionmakingExplanatory" contextRef="Context_Duration_ShortTermMember" xml:lang="zh" escape="true">鴻海氣候相關風險與機會矩陣圖(TFCD-P14)</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-ibg:HowDefinitionOfTimeHorizonsIsLinkedToPlanningHorizonsUsedForStrategicDecisionmakingExplanatory" contextRef="Context_Duration_ShortTermMember" xml:lang="en" escape="true">Hon Hai matrix of climate-related risks and opportunities (TCFD P.14)</ix:nonNumeric></pre></span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-ibg:HowDefinitionOfTimeHorizonsIsLinkedToPlanningHorizonsUsedForStrategicDecisionmakingExplanatory" contextRef="Context_Duration_MediumTermMember" xml:lang="zh" escape="true">鴻海氣候相關風險與機會矩陣圖(TFCD-P14)</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-ibg:HowDefinitionOfTimeHorizonsIsLinkedToPlanningHorizonsUsedForStrategicDecisionmakingExplanatory" contextRef="Context_Duration_MediumTermMember" xml:lang="en" escape="true">Hon Hai matrix of climate-related risks and opportunities (TCFD P.14)</ix:nonNumeric></pre></span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-ibg:HowDefinitionOfTimeHorizonsIsLinkedToPlanningHorizonsUsedForStrategicDecisionmakingExplanatory" contextRef="Context_Duration_LongTermMember" xml:lang="zh" escape="true">鴻海氣候相關風險與機會矩陣圖(TFCD-P14)</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-ibg:HowDefinitionOfTimeHorizonsIsLinkedToPlanningHorizonsUsedForStrategicDecisionmakingExplanatory" contextRef="Context_Duration_LongTermMember" xml:lang="en" escape="true">Hon Hai matrix of climate-related risks and opportunities (TCFD P.14)</ix:nonNumeric></pre></span></td>
+					</tr>
+					<tr>
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">Other disclosures that enable understanding about risks and opportunities</span><span class="en">Other disclosures that enable understanding about risks and opportunities</span></td>
+						<td colspan='3'><span class="zh"><pre></pre></span><span class="en"><pre></pre></span></td>
+					</tr>
+				</table> 
+				<br />
+			
+			<!-- 經營模式及價值鏈 -->
+			<div id="Strategy-BV"></div> 
+				<table style="width:90%" style="table-layout:fixed;"> 
+					<tr><th colspan="2"><span class="zh">策略 - 經營模式及價值鏈</span><span class="en">Business model and value chain</span></th></tr> 
+					<tr> 
+						<th><span class="zh">策略 - 經營模式及價值鏈</span><span class="en">Business model and value chain</span></th> 
+						<th><span class="zh">2022年度</span><span class="en">2022</span></th>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<span class="zh">Current and anticipated effects of climate-related risks and opportunities on business model and value chain</span>
+							<span class="en">Current and anticipated effects of climate-related risks and opportunities on business model and value chain</span>
+						</td>
+					<tr>
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">　　Current and anticipated effects of risks and opportunities on business model and value chain</span><span class="en">　　Current and anticipated effects of risks and opportunities on business model and value chain</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-ibg:CurrentAndAnticipatedEffectsOfRisksAndOpportunitiesOnBusinessModelAndValueChainExplanatory" contextRef="From20220101to20221231" xml:lang="zh" escape="true">鴻海以「綠色智能」、「循環經濟」做為環境議題的核心推動策略，明確訂定「清潔生產」及「資源管理」兩大核心概念，擬訂永續行動計畫，並配合三大氣候目標，以 集團價值鏈角度提出對應的淨零減排管理與監督機制，鴻海將從氣候變遷減緩行動、價值鏈管理、推動綠色智能轉型、開創新興產業、提升營運韌性等核心概念出發，逐步迎向淨零之路。 (TFCD-P19)
+根據電子類供應商的碳排放數據分析，90% 以上的碳排放是來自外購電力，供應商透過節能改造減碳僅佔 10% 左右，若要達到價值鏈淨零碳排放的目標，則需要透過建置太陽能（光伏）或購買綠電等方式中和外購電力產生的碳排放。為配合集團對於再生能源的重點發展方向，集團將與電子供應商展開密切合作，推動供應商 使用可再生能源，樹立標竿電子供應商，與終端客戶共創零碳供應鏈。 (TFCD-P23)</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-ibg:CurrentAndAnticipatedEffectsOfRisksAndOpportunitiesOnBusinessModelAndValueChainExplanatory" contextRef="From20220101to20221231" xml:lang="en" escape="true">Hon Hai considers “Green Solutions” and “Circular Economy” to be core implementation strategies for environmental issues, and has set “clean production” and “resource management” as the two core concepts for establishing a sustainable action plan aligned with three major climate goals, and for formulating corresponding net zero targets, carbon reduction management, and monitoring mechanisms for the Group’s value chain. Hon Hai will take gradual steps to achieve net zero emissions through actions that mitigate climate change, value chain management, promotion of smart and green transformations, creation of emerging industries, enhancement of operational resilience, and other core concepts. (TCFD P.19)
+
+Carbon emissions data from our electronics suppliers show that more than 90% of carbon emissions come from purchased electricity, and energy conservation transformations can only reduce carbon emissions by 10%. To realize net zero emissions throughout our value chain, it is necessary to neutralize the carbon emissions generated by externally purchased electricity through installation of solar photovoltaic equipment or by purchasing green electricity. In accordance with our emphasis on renewable energies, we actively work with collaborating suppliers to promote use of renewable energies within our supply chain, set an example for our suppliers, and work with our end clients to build a zero-emissions supply chain.(TCFD P.23)</ix:nonNumeric></pre></span></td>
+					</tr>
+					<tr>
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">　　Where in business model and value chain risks and opportunities are concentrated</span><span class="en">　　Where in business model and value chain risks and opportunities are concentrated</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-ibg:WhereInBusinessModelAndValueChainRisksAndOpportunitiesAreConcentratedExplanatory" contextRef="From20220101to20221231" xml:lang="zh" escape="true">鴻海以「綠色智能」、「循環經濟」做為環境議題的核心推動策略。
+電子類供應商減碳推動 (TFCD-P22)
+電子類供應商可再生能源推動 (TFCD-P23)</ix:nonNumeric></pre></span><span class="en"><ix:nonNumeric name="ifrs-ibg:WhereInBusinessModelAndValueChainRisksAndOpportunitiesAreConcentratedExplanatory" contextRef="From20220101to20221231" xml:lang="en" escape="true">Hon Hai considers “Green Solutions” and “Circular Economy” to be core implementation strategies for environmental issues. . (TCFD P.19)
+Promote carbon reduction for electronic suppliers (TCFD P.22)
+Promote use of renewable energies for electronics suppliers (TCFD P.23)</ix:nonNumeric><pre></pre></span></td>
+					</tr> 
+					<tr>
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}vv
+						</style>
+						<td><span class="zh">Other disclosures about current and anticipated effects of risks and opportunities on business model and value chain</span>
+						<span class="en">Other disclosures about current and anticipated effects of risks and opportunities on business model and value chain</span></td>
+						<td class="amt"></td>
+					</tr>
+				</table> 
+				<br />
+			
+			<!-- 財務狀況、財務績效及現金流量 -->
+			<!-- Current financial effects of climate-related risks and opportunities -->
+			<div id="Strategy-FFC"></div> 
+				<table style="width:90%" style="table-layout:fixed;"> 
+					<tr><th colspan="2"><span class="zh">策略 - 財務狀況、財務績效及現金流量 - Current financial effects of climate-related risks and opportunities</span><span class="en">Financial position, financial performance and cash flows - Current financial effects of climate-related risks and opportunities</span></th></tr> 
+					<tr> 
+						<th><span class="zh">策略 - 財務狀況、財務績效及現金流量 - Current financial effects of climate-related risks and opportunities</span><span class="en">Current financial effects of climate-related risks and opportunities</span></th> 
+						<th><span class="zh">2022年度</span><span class="en">2022</span></th>
+					</tr> 
+					<tr>
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td colspan="2"><span class="zh">Current financial effects of climate-related risks and opportunities</span><span class="en">Current financial effects of climate-related risks and opportunities</span></td>
+					</tr> 
+					<tr>
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">　　How risks and opportunities have affected financial position, financial performance and cash flows for reporting period</span><span class="en">　　How risks and opportunities have affected financial position, financial performance and cash flows for reporting period</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-ibg:HowRisksAndOpportunitiesHaveAffectedFinancialPositionFinancialPerformanceAndCashFlowsForReportingPeriodExplanatory" contextRef="From20220101to20221231" xml:lang="zh" escape="true">集團為跨國營運之電子代工業，大部分營業活動匯率風險來自非功能性外幣應收帳款、應付帳款立帳時間不同，對功能性貨幣之匯 率有所差異，所產生之匯率風險。由於代工業之特性，集團營收與支出兩者大部分皆為外幣，故資產、負債互抵後，所剩之淨匯率 風險較小。此外，集團所投資部分海外新興國家雖匯率波動較大，但佔集團比重並不高，匯率風險保持在可控範圍之內。(永續報告書 P.23)
+集團僅就結構單純、成熟、報價簡單明確、資訊公開易得、市場參與者眾、報價者多，仲介商競爭之商品操作，資金配置以高度流 動性為原則，並開發資金來源多元管道，避免金融市場系統性風險。 (永續報告書 P.23)</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-ibg:HowRisksAndOpportunitiesHaveAffectedFinancialPositionFinancialPerformanceAndCashFlowsForReportingPeriodExplanatory" contextRef="From20220101to20221231" xml:lang="en" escape="true">The Group is a multinational electronics contract manufacturer. The primary source of foreign exchange risk from operational activities stems from non-functional accounts receivable in foreign currencies and differences in account establishment times for accounts receivable that are affected by exchange rates for functional currencies. A feature of contract manufacturers is that both revenues and expenditures are calculated mostly in foreign currency; therefore, after matching assets and liabilities, the foreign exchange risk of the remaining sum is reduced. In addition, although some developing countries we invested in have relatively large foreign exchange fluctuations, these make up only a small proportion of Group finances and the foreign exchange risk from these countries remain manageable.
+The Group only works with mature financial products that are simple in structure, simply priced, transparent, and have numerous market participants, prices, and competing brokers. The funds of the Group are placed in high-liquidity instruments and diversity of revenue sources will be cultivated to avoid systemic risks from financial markets.
+( Sustainability Report P.23)</ix:nonNumeric></pre></span></td>
+					</tr>
+					<tr>
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">　　　　Risks and opportunities with significant risk of material adjustment within next annual reporting period to carrying amounts of assets and liabilities</span><span class="en">　　　　Risks and opportunities with significant risk of material adjustment within next annual reporting period to carrying amounts of assets and liabilities</span></td>
+						<td class="amt"></td>
+					</tr>
+				</table> 
+				<br />
+			
+			<!-- Anticipated financial effects of climate-related risks and opportunitie -->
+			<div id="FFC-AE"></div> 
+				<table style="width:90%" style="table-layout:fixed;"> 
+					<tr><th colspan="2"><span class="zh">策略-財務狀況、財務績效及現金流量 - Anticipated financial effects of climate-related risks and opportunities</span><span class="en">Anticipated financial effects of climate-related risks and opportunities</span></th></tr> 
+					<tr> 
+						<th><span class="zh">財務狀況、財務績效及現金流量 - Anticipated financial effects of climate-related risks and opportunities</span><span class="en">Anticipated financial effects of climate-related risks and opportunities</span></th> 
+						<th><span class="zh">2022年度</span><span class="en">2022</span></th>
+					</tr> 
+					<tr>
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td colspan="2"><span class="zh">Anticipated financial effects of climate-related risks and opportunities</span>
+						<span class="en">Anticipated financial effects of climate-related risks and opportunities</span></td>
+					</tr> 
+					<tr>
+						<style>
+							td pre{ 
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">　　How financial position expected to change over short, medium and long term, given strategy to manage risks and opportunities</span><span class="en">　　How financial position expected to change over short, medium and long term, given strategy to manage risks and opportunities</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-ibg:HowFinancialPositionExpectedToChangeOverShortMediumAndLongTermGivenStrategyToManageRisksAndOpportunitiesExplanatory" contextRef="From20220101to20221231" xml:lang="zh" escape="true">風險： (TFCD-P15、P16)
+1.再生能源需求增加與電力法規限制：
+• 購買再生能源的投資成本增加 
+• 綠電採購費用增加
+2.市場訊息不確定：原物料價格波動，影響產量，可能造成潛在營收下降
+3.利害關係人的關注或反饋增加：當無法滿足利害關係人的期待，會使集團聲譽受影響，可能影響市值或導致投資人投資金額下降。
+
+機會： (TFCD-P16、P17)
+1.多元低碳產品與服務的研發創新與市場：
+• 客戶對低碳產品需求增加、營收增加 
+• 進入新興市場，提高營業收入
+• 因應新產品與新製程技術產線，會導致用電量增加、營運成本上升
+2.使用更高效率的生產和配銷流程：
+• 透過提升效率，降低營運成本 
+• 提高產能，增加營業收入 
+• 導入自動化管理和規劃，降低人事成本
+3.減少水資源的使用與回收再利用：
+• 回收再利用，投入成本增加、營運成 本下降
+• 改善製程，資本投入成本增加、營運成本下降</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-ibg:HowFinancialPositionExpectedToChangeOverShortMediumAndLongTermGivenStrategyToManageRisksAndOpportunitiesExplanatory" contextRef="From20220101to20221231" xml:lang="en" escape="true">Risks:
+Increased need for renewable energies and limitations of electricity regulations
+• Hon Hai operates in the Taiwan and China regions, which have consecutively issued green electricity policies requiring the Group to continually expand usage of renewable energies 
+• Hon Hai voluntarily became a SBTi supporter and pledged to reduce carbon emissions by 42% before 2030 and achieve net zero emissions by 2050, while also increasing procurement of renewable energies
+Uncertainty in market information
+• The chip shortage caused by climate change (including droughts, rising average temperatures, and heavy rainfall) remains unresolved, leading to fluctuations in raw material costs and increased uncertainly in market information, which may affect automobile production. If these conditions continue into 2023, this may also affect future shipments of Hon Hai electric vehicles (EVs)
+Increased stakeholder concern or feedback
+• Inability to achieve climate goals and adopt active mitigation actions may cause our international ESG ratings to decline and investors to lose confidence in Hon Hai 
+• Inability to use green electricity or achieve carbon reduction targets according to schedule may affect the Group’s corporate image and cause external interest groups to exert pressure on Hon Hai
+
+Opportunities:
+R&amp;D, innovation, and markets for diverse low-carbon products and services
+• Various countries have proposed regulations and schedules for banning use of gasoline cars, meaning EVs will become the mainstay for countries around the world from 2025 to 2040. Hon Hai’s 3+3 strategy of developing EVs and components, lithium batteries, energy storage equipment, and other low-carbon products and technologies aligns with global trends, environmental protection laws, and subsidy policies, enabling us to increase our influence on the EV and energy storage industries while giving back to society
+Use of high-efficiency production and distribution processes
+• Monitor factory production and integrate information on orders and incoming materials to compile production records for automation and IoT, thereby enhancing Group production efficiency and generating positive external impacts
+Reduce usage, recycling Reuse of water resources
+• Reduce use of water resources: Increase recycling of water resources bring positive benefits to the Group, which is demonstrated by the system for reusing reclaimed water at our Shenzhen Factory 
+• Recycling and reuse: Use recyclable materials and reuse waste (such as packaging, cardboard boxes, and pallets) to reduce waste disposal costs and increase income; we are actively planning to recycle batteries from scrapped EVs to facilitate recycling of lithium, cobalt, and nickel materials within the batteries.
+( TCFD P.15-17)</ix:nonNumeric></pre></span></td>
+					</tr>
+					<tr>
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">　　How financial performance and cash flows expected to change over short, medium and long term given strategy to manage risks and opportunities</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-ibg:HowFinancialPerformanceAndCashFlowsExpectedToChangeOverShortMediumAndLongTermGivenStrategyToManageRisksAndOpportunitiesExplanatory" contextRef="From20220101to20221231" xml:lang="zh" escape="true">風險： (TFCD-P15、P16)
+1.再生能源需求增加與電力法規限制：
+• 購買再生能源的投資成本增加 
+• 綠電採購費用增加
+2.市場訊息不確定：原物料價格波動，影響產量，可能造成潛在營收下降
+3.利害關係人的關注或反饋增加：當無法滿足利害關係人的期待，會使集團聲譽受影響，可能影響市值或導致投資人投資金額下降。
+
+機會： (TFCD-P16、P17)
+1.多元低碳產品與服務的研發創新與市場：
+• 客戶對低碳產品需求增加、營收增加 
+• 進入新興市場，提高營業收入
+• 因應新產品與新製程技術產線，會導致用電量增加、營運成本上升
+2.使用更高效率的生產和配銷流程：
+• 透過提升效率，降低營運成本 
+• 提高產能，增加營業收入 
+• 導入自動化管理和規劃，降低人事成本
+3.減少水資源的使用與回收再利用：
+• 回收再利用，投入成本增加、營運成 本下降
+• 改善製程，資本投入成本增加、營運成本下降</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-ibg:HowFinancialPerformanceAndCashFlowsExpectedToChangeOverShortMediumAndLongTermGivenStrategyToManageRisksAndOpportunitiesExplanatory" contextRef="From20220101to20221231" xml:lang="en" escape="true">Risks:
+Long-term
+Increased need for renewable energies and limitations of electricity regulations
+• Increased investment costs for procurement of renewable energies 
+• Increased costs for procurement of green electricity
+Mid-term
+Uncertainty in market information
+• Fluctuations in raw material prices may affect production volumes and result in decreased potential revenues
+Increased stakeholder concern or feedback
+• Inability to satisfy stakeholder expectations will affect the Group’s reputation, which may cause our market value to decline or investors to decrease their investments
+
+Opportunities:
+Long-term
+R&amp;D, innovation, and markets for diverse low-carbon products and services
+• Increased client demand for lowcarbon products and increased revenues 
+• Entry into emerging markets and increased revenues 
+• Increases in electricity usage and operational costs due to new products, processes, technologies, and production lines
+Use of high-efficiency production and distribution processes
+• Reduced operating costs from enhanced efficiency 
+• Increased revenues from enhanced production capacity 
+• Reduced personnel costs from incorporation of automated management and planning
+Reduce usage, recycling Reuse of water resources
+• Recycling and reuse increases investment costs and reduces operating costs 
+• Improving processes increases capital investments and reduces operating costs
+( TCFD P.15-17)</ix:nonNumeric></pre></span></td>
+					</tr>
+					<tr>
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">　　Explanation of why quantitative information not provided about current or anticipated financial effects of identified risk or opportunity</span><span class="en">　　Explanation of why quantitative information not provided about current or anticipated financial effects of identified risk or opportunity</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-ibg:ExplanationOfWhyQuantitativeInformationNotProvidedAboutCurrentOrAnticipatedFinancialEffectsOfIdentifiedRiskOrOpportunityExplanatory" contextRef="From20220101to20221231" xml:lang="zh" escape="true">為了強化氣候相關風險與機會對於集團的影響掌握程度，透過導入 TCFD 框架，2022 年集團成立 TCFD 核心工作小組，未來也規劃進行氣候情境的分析研討及量化氣候相關風險的財務衝擊，並由財會總處負責每年審核及更新氣候議題相關的財務衝擊。(TFCD-P11)</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-ibg:ExplanationOfWhyQuantitativeInformationNotProvidedAboutCurrentOrAnticipatedFinancialEffectsOfIdentifiedRiskOrOpportunityExplanatory" contextRef="From20220101to20221231" xml:lang="en" escape="true">To strengthen our understanding of how climate-related risks and opportunities impact the Group, we incorporated the TCFD framework and established TCFD Core Working Group in 2022. In future, we plan to analyze and discuss climate scenarios, as well as quantify the financial impacts of climate-related risks. The Finance and Accounting Department is responsible for auditing and updating the financial impacts of climate risks on an annual basis.( TCFD P.11)</ix:nonNumeric></pre></span></td>
+					</tr>
+					<tr>
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">Other disclosures about current and anticipated financial effects of risks and opportunities</span><span class="en">Other disclosures about current and anticipated financial effects of risks and opportunities</span></td>
+						<td class="amt"></td>
+					</tr>
+				</table> 
+				<br />
+			
+			<!-- 氣候韌性 -->
+			<div id="Strategy-R"></div> 
+				<table style="width:90%" style="table-layout:fixed;"> 
+					<tr><th colspan="2"><span class="zh">策略-氣候韌性</span><span class="en">Climate resilience</span></th></tr> 
+					<tr> 
+						<th><span class="zh">氣候韌性</span><span class="en">Climate resilience</span></th> 
+						<th><span class="zh">2022年度</span><span class="en">2022</span></th>
+					</tr> 
+					<tr>
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td colspan="2"><span class="zh">Climate resilience</span><span class="en">Climate resilience</span></td>
+					</tr> 
+					<tr>
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">　　Assessment of climate resilience</span><span class="en">　　Assessment of climate resilience</span></td>
+						<td class="amt"></td>
+					</tr>
+					<tr>
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">　　How and when climate-related scenario analysis was carried out</span><span class="en">　　How and when climate-related scenario analysis was carried out</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-ibg:HowAndWhenClimaterelatedScenarioAnalysisWasCarriedOutExplanatory" contextRef="From20220101to20221231" xml:lang="en" escape="true">TCFD 核心工作小組為氣候風險管理的統籌單位，負責組織與協調相關單位與部門進行 風險鑑別與評估，整合出集團氣候相關風險與機會議題清單，並由永續委員會召開教育訓練 與鑑別會議，TCFD 核心工作小組向利害關係人發放問卷（投資人與客戶），進一步進行複 合性分析，歸納出集團的重大氣候相關風險與機會、現有成果與因應對策。(TCFD P.13)
+第一階段於2022年導入氣候相關財務揭露建議（TCFD），從治理、策略、風險管理、指標與目標四大架構，透明揭露鴻海的關鍵氣候相關風險與機會的管理現況，以及邁向淨零願景的營運策略與績效。未來於第二階段計畫進行氣候情境的分析研討及量化氣候相關風險的財務衝擊，而第三階段將會結合第一、二階段的階段性成果，產出標準化表單及流程，並將氣候相關財務衝擊評估擴至全球範疇。 (TCFD-P15)</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-ibg:HowAndWhenClimaterelatedScenarioAnalysisWasCarriedOutExplanatory" contextRef="From20220101to20221231" xml:lang="en" escape="true">The TCFD Core Working Group are coordinating units for climate risk management, and are responsible for organizing and coordinating relevant units and departments in conducting risk identification and assessments, as well as compiling climate-related risks and opportunities for the Group so that the Sustainability Committee can convene training sessions and identification meetings. The TCFD Core Working Groups distribute questionnaires to stakeholders (investors and clients) and conduct composite analyses to summarize the Group’s major climate risks and opportunities, existing achievements, and countermeasures. ( TCFD P.13)
+The first stage incorporated the four main aspects of TCFD recommendations (governance, strategies, risk management, and indicators and goals) in 2022 to facilitate transparent disclosure of our management procedures for key climate-related risks and opportunities, as well as the strides we are making in our operational strategies and performance for our net zero vision. In the second stage, we aim to conduct analyses and discussions of climate scenarios, as well as quantify financial impacts. The third stage will integrate results from the first and second stages to generate standardized forms and processes that extend the scope of climate-related financial assessments to the whole world.( TCFD P.7)</ix:nonNumeric></pre></span></td>
+					</tr>
+					<tr> 
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">　　　　ClimaterelatedScenarioAnalysisIncludedDiverseRangeOfClimaterelatedScenarios</span><span class="en">　　　　ClimaterelatedScenarioAnalysisIncludedDiverseRangeOfClimaterelatedScenarios</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-sds:ClimaterelatedScenarioAnalysisIncludedDiverseRangeOfClimaterelatedScenarios" contextRef="From20220101to20221231" xml:lang="en" escape="true">false</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-sds:ClimaterelatedScenarioAnalysisIncludedDiverseRangeOfClimaterelatedScenarios" contextRef="From20220101to20221231" xml:lang="en" escape="true">false</ix:nonNumeric></pre></span></td>
+					</tr>
+					<tr>
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">　　　　Climate-related scenarios used are associated with climate-related transition risks or climate-related physical risks</span><span class="en">　　　　Climate-related scenarios used are associated with climate-related transition risks or climate-related physical risks</span></td>
+						<td class="amt"></td>
+					</tr>
+					<tr>
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">　　　　Climate-related scenario used that is aligned with latest international agreement on climate change</span><span class="en">　　　　Climate-related scenario used that is aligned with latest international agreement on climate change</span></td>
+						<td class="amt"></td>
+					</tr>
+					<tr> 
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">　　　　Start of reporting period in which climate-related scenario analysis was carried out</span><span class="en">　　　　Start of reporting period in which climate-related scenario analysis was carried out</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-sds:StartOfReportingPeriodInWhichClimaterelatedScenarioAnalysisWasCarriedOut" contextRef="From20220101to20221231" xml:lang="en" escape="true">2022-01-01</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-sds:StartOfReportingPeriodInWhichClimaterelatedScenarioAnalysisWasCarriedOut" contextRef="From20220101to20221231" xml:lang="en" escape="true">2022-01-01</ix:nonNumeric></pre></span></td>
+					</tr>
+					<tr> 
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">　　　　End of reporting period in which climate-related scenario analysis was carried out</span><span class="en">　　　　End of reporting period in which climate-related scenario analysis was carried out</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-sds:EndOfReportingPeriodInWhichClimaterelatedScenarioAnalysisWasCarriedOut" contextRef="From20220101to20221231" xml:lang="en" escape="true">2022-12-31</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-sds:EndOfReportingPeriodInWhichClimaterelatedScenarioAnalysisWasCarriedOut" contextRef="From20220101to20221231" xml:lang="en" escape="true">2022-12-31</ix:nonNumeric></pre></span></td>
+					</tr>
+				</table> 
+				<br />
+				
+			<!-- 風險管理 -->
+			<div id="Risk-management"></div> 
+			<div class="rptidx"><span class="zh">風險管理</span><span class="en">Risk management</span></div> 
+				<table style="width:90%" style="table-layout:fixed;"> 
+					<tr><th colspan="2"><span class="zh">風險管理</span><span class="en">Risk management</span></th></tr> 
+					<tr> 
+						<th><span class="zh">風險管理</span><span class="en">Risk management</span></th> 
+						<th><span class="zh">2022年度</span><span class="en">2022</span></th>
+					</tr> 
+					<tr>
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td colspan="2"><span class="zh">Risk management of climate-related risks and opportunities</span><span class="en">Risk management of climate-related risks and opportunities</span></td>
+					</tr> 
+					<tr>
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">　　Processes and related policies to identify, assess, prioritise and monitor risks</span><span class="en">　　Processes and related policies to identify, assess, prioritise and monitor risks</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-ibg:ProcessesAndRelatedPoliciesToIdentifyAssessPrioritiseAndMonitorRisksExplanatory" contextRef="From20220101to20221231" xml:lang="zh" escape="true">鴻海氣候風險與機會鑑別與評估流程
+TCFD 核心工作小組為氣候風險管理的統籌單位，負責組織與協調相關單位與部門進行風險鑑別與評估，整合出集團氣候相關風險與機會議題清單，並由永續委員會召開教育訓練與鑑別會議，TCFD 核心工作小組向利害關係人發放問卷（投資人與客戶），進一步進行複合性分析，歸納出集團的重大氣候相關風險與機會、現有成果與因應對策。 (TCFD-P13)</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-ibg:ProcessesAndRelatedPoliciesToIdentifyAssessPrioritiseAndMonitorRisksExplanatory" contextRef="From20220101to20221231" xml:lang="en" escape="true">The TCFD Core Working Group are coordinating units for climate risk management, and are responsible for organizing and coordinating relevant units and departments in conducting risk identification and assessments, as well as compiling climate-related risks and opportunities for the Group so that the Sustainability Committee can convene training sessions and identification meetings. The TCFD Core Working Groups distribute questionnaires to stakeholders (investors and clients) and conduct composite analyses to summarize the Group’s major climate risks and opportunities, existing achievements, and countermeasures.( TCFD P.13)</ix:nonNumeric></pre></span></td>
+					</tr>
+					<tr>
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">　　　　Inputs and parameters used in process to identify, prioritise and monitor risks</span><span class="en">　　　　Inputs and parameters used in process to identify, prioritise and monitor risks</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-ibg:InputsAndParametersUsedInProcessToIdentifyPrioritiseAndMonitorRisksExplanatory" contextRef="From20220101to20221231" xml:lang="zh" escape="true">衝擊可能性之設定以相關議題 / 事件發生可能性作為評 估基礎，並依照高低程度區分為五等級；衝擊程度則依據相 關議題 / 事件於財務、生產 / 產品 ( 含服務 )、人員傷亡、聲 譽與形象等四面向的衝擊高低程度區分為五等級作為議題的 評估基準。</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-ibg:InputsAndParametersUsedInProcessToIdentifyPrioritiseAndMonitorRisksExplanatory" contextRef="From20220101to20221231" xml:lang="en" escape="true">Likelihood of impact is based on the likelihood of occurrence for various issues/incidents, and is divided into five levels, while magnitude of impact is divided into five levels based on the four aspects of finance, production/products (and services), personnel injury, and reputation and image. ( TCFD P.14)</ix:nonNumeric></pre></span></td>
+					</tr>
+					<tr>
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">　　　　Whether and how scenario analysis used to inform identification of risks</span><span class="en">　　　　Whether and how scenario analysis used to inform identification of risks</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-ibg:WhetherAndHowScenarioAnalysisUsedToInformIdentificationOfRisksExplanatory" contextRef="From20220101to20221231" xml:lang="en" escape="true">2022 年集團成立 TCFD 核心工作小組，未來也規劃進行氣候情境的分析研討及量化氣候相關風險的財務衝擊，並由財會總處負責每年審核及更新氣候議題相關的財務衝擊。(TCFD P.11)</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-ibg:WhetherAndHowScenarioAnalysisUsedToInformIdentificationOfRisksExplanatory" contextRef="From20220101to20221231" xml:lang="en" escape="true">To strengthen our understanding of how climate-related risks and opportunities impact the Group, we incorporated the TCFD framework and established TCFD Core Working Group in 2022. In future, we plan to analyze and discuss climate scenarios, as well as quantify the financial impacts of climate-related risks. The Finance and Accounting Department is responsible for auditing and updating the financial impacts of climate risks on an annual basis.( TCFD P.11)</ix:nonNumeric></pre></span></td>
+					</tr>
+					<tr> 
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">　　　　　　Entity uses climate-related scenario analysis to inform identification of climate-related risks</span><span class="en">　　　　　　Entity uses climate-related scenario analysis to inform identification of climate-related risks</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-sds:EntityUsesClimaterelatedScenarioAnalysisToInformIdentificationOfClimaterelatedRisks" contextRef="From20220101to20221231" xml:lang="en" escape="true">false</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-sds:EntityUsesClimaterelatedScenarioAnalysisToInformIdentificationOfClimaterelatedRisks" contextRef="From20220101to20221231" xml:lang="en" escape="true">false</ix:nonNumeric></pre></span></td>
+					</tr>
+					<tr>
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">　　　　How nature, likelihood and magnitude of effects of risks are assessed</span><span class="en">　　　　How nature, likelihood and magnitude of effects of risks are assessed</span></td>
+						<td class="amt"></td>
+					</tr>
+					<tr>
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">　　　　Whether and how sustainability-related risks have been prioritised relative to other types of risk</span><span class="en">　　　　Whether and how sustainability-related risks have been prioritised relative to other types of risk</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-ibg:WhetherAndHowSustainabilityrelatedRisksHaveBeenPrioritisedRelativeToOtherTypesOfRiskExplanatory" contextRef="From20220101to20221231" xml:lang="zh" escape="true">衝擊可能性之設定以相關議題 / 事件發生可能性作為評估基礎，並依照高低程度區分為五等級；衝擊程度則依據相 關議題 / 事件於財務、生產 / 產品 ( 含服務 )、人員傷亡、聲譽與形象等四面向的衝擊高低程度區分為五等級作為議題的評估基準。(TCFD P.14)</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-ibg:WhetherAndHowSustainabilityrelatedRisksHaveBeenPrioritisedRelativeToOtherTypesOfRiskExplanatory" contextRef="From20220101to20221231" xml:lang="en" escape="true">Likelihood of impact is based on the likelihood of occurrence for various issues/incidents, and is divided into five levels, while magnitude of impact is divided into five levels based on the four aspects of finance, production/products (and services), personnel injury, and reputation and image. ( TCFD P.14)</ix:nonNumeric></pre></span></td>
+					</tr>
+					<tr> 
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">　　　　　　Climate-related risks have been prioritised relative to other types of risk</span><span class="en">　　　　　　Climate-related risks have been prioritised relative to other types of risk</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-sds:ClimaterelatedRisksHaveBeenPrioritisedRelativeToOtherTypesOfRisk" contextRef="From20220101to20221231" xml:lang="en" escape="true">true</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-sds:ClimaterelatedRisksHaveBeenPrioritisedRelativeToOtherTypesOfRisk" contextRef="From20220101to20221231" xml:lang="en" escape="true">true</ix:nonNumeric></pre></span></td>
+					</tr>
+					<tr>
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">　　　　Whether and how processes to identify, assess, prioritise and monitor risks for risk-management purposes changed compared with previous reporting period</span><span class="en">　　　　Whether and how processes to identify, assess, prioritise and monitor risks for risk-management purposes changed compared with previous reporting period</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-ibg:WhetherAndHowProcessesToIdentifyAssessPrioritiseAndMonitorRisksForRiskmanagementPurposesChangedComparedWithPreviousReportingPeriodExplanatory" contextRef="From20220101to20221231" xml:lang="en" escape="true">To strengthen our understanding of how climate-related risks and opportunities impact the Group, we incorporated the TCFD framework and established TCFD Core Working Group in 2022. In future, we plan to analyze and discuss climate scenarios, as well as quantify the financial impacts of climate-related risks. The Finance and Accounting Department is responsible for auditing and updating the financial impacts of climate risks on an annual basis.( TCFD P.11)</ix:nonNumeric></pre></span><span class="en"><pre></pre></span></td>
+					</tr>
+					<tr> 
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">　　　　　　Entity changed processes to identify, assess, prioritise and monitor risks compared with previous reporting period</span><span class="en">　　　　　　Entity changed processes to identify, assess, prioritise and monitor risks compared with previous reporting period</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-sds:EntityChangedProcessesToIdentifyAssessPrioritiseAndMonitorRisksComparedWithPreviousReportingPeriod" contextRef="From20220101to20221231" xml:lang="en" escape="true">false</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-sds:EntityChangedProcessesToIdentifyAssessPrioritiseAndMonitorRisksComparedWithPreviousReportingPeriod" contextRef="From20220101to20221231" xml:lang="en" escape="true">false</ix:nonNumeric></pre></span></td>
+					</tr>
+					<tr>
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">　　Processes used to identify, assess, prioritise and monitor opportunities</span><span class="en">　　Processes used to identify, assess, prioritise and monitor opportunities</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-ibg:ProcessesUsedToIdentifyAssessPrioritiseAndMonitorOpportunitiesExplanatory" contextRef="From20220101to20221231" xml:lang="zh" escape="true">鴻海於 2020 年開始規劃廠區導入 ISO 22301 持續營運管理系統，藉以強化廠端於危機期間的持續營運與復原速度。以桃園南崁廠為例，廠區透過營運持續風險評鑑，辨識可能造成產品與服務中斷之威脅事件，依結果制定後續管理行動，並決定優先發展之緊急應變程序。 面對短期的氣候議題風險，鴻海透過天氣預警，依據相關颱風暴雨應急預案進行現場預防管理作業處理；針對中長期的氣候議題風險，利用風險辨識的研析結果，盤點氣候相關風險與機會之管理策略並執行相關措施，而為避免造成相關財產損失及營運中斷等緊急意外事件，透過投保各類商業保險進行風險轉嫁。(TCFD P.28)</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-ibg:ProcessesUsedToIdentifyAssessPrioritiseAndMonitorOpportunitiesExplanatory" contextRef="From20220101to20221231" xml:lang="en" escape="true">Starting in 2020, Hon Hai began implementing ISO 22301 Business Continuity Management Systems in factories to strengthen factory operational continuity and recovery speeds during crises. As an example, our Taoyuan Namkam Factory used assessments of operational continuity risks to identify potential events that could interrupt products and services; the results of said assessment were used to formulate subsequent management plans and prioritize development of emergency response procedures (please refer to the table below for the steps implementation for risk assessments). 
+For short-term climate risks, Hon Hai issues weather warnings and implements on-site prevention and management procedures in accordance with emergency typhoon and storm plans; for mid- and long-term climate risks, we use our risk analysis results to determine management strategies and implementation measures for climate risks and opportunities; to avoid emergency accidents such as property losses and operational interruptions, risk transfer is carried out by purchasing various types of commercial insurance.( TCFD P.28)</ix:nonNumeric></pre></span></td>
+					</tr>
+					<tr>
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">　　　　Whether and how climate-related scenario analysis used to inform identification of climate-related opportunities</span><span class="en">　　　　Whether and how climate-related scenario analysis used to inform identification of climate-related opportunities</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-ibg:WhetherAndHowClimaterelatedScenarioAnalysisUsedToInformIdentificationOfClimaterelatedOpportunitiesExplanatory" contextRef="From20220101to20221231" xml:lang="zh" escape="true">2022 年集團成立 TCFD 核心工作小組，未來也規劃進行氣候情境的分析研討及量化氣候相關風險的財務衝擊，並由財會總處負責每年審核及更新氣候議題相關的財務衝擊。(TCFD P.11)</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-ibg:WhetherAndHowClimaterelatedScenarioAnalysisUsedToInformIdentificationOfClimaterelatedOpportunitiesExplanatory" contextRef="From20220101to20221231" xml:lang="en" escape="true">To strengthen our understanding of how climate-related risks and opportunities impact the Group, we incorporated the TCFD framework and established TCFD Core Working Group in 2022. In future, we plan to analyze and discuss climate scenarios, as well as quantify the financial impacts of climate-related risks. The Finance and Accounting Department is responsible for auditing and updating the financial impacts of climate risks on an annual basis.( TCFD P.11)</ix:nonNumeric></pre></span></td>
+					</tr>
+					<tr> 
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">　　　　　　Entity uses climate-related scenario analysis to inform identification of climate-related opportunities</span><span class="en">　　　　　　Entity uses climate-related scenario analysis to inform identification of climate-related opportunities</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-sds:EntityUsesClimaterelatedScenarioAnalysisToInformIdentificationOfClimaterelatedOpportunities" contextRef="From20220101to20221231" xml:lang="en" escape="true">false</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-sds:EntityUsesClimaterelatedScenarioAnalysisToInformIdentificationOfClimaterelatedOpportunities" contextRef="From20220101to20221231" xml:lang="en" escape="true">false</ix:nonNumeric></pre></span></td>
+					</tr>
+					<tr>
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">　　Extent to which and how processes for identifying, assessing, prioritising and monitoring risks and opportunities are integrated into or inform overall risk management process</span><span class="en">　　Extent to which and how processes for identifying, assessing, prioritising and monitoring risks and opportunities are integrated into or inform overall risk management process</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-ibg:ExtentToWhichAndHowProcessesForIdentifyingAssessingPrioritisingAndMonitoringRisksAndOpportunitiesAreIntegratedIntoOrInformOverallRiskManagementProcessExplanatory" contextRef="From20220101to20221231" xml:lang="zh" escape="true">鴻海依據各類風險議題的層級與單位職能，建構階層式之風險管理流程，從集團、事業群 / 法人到廠區，依據不同管理 層級與風險議題之影響性，完善整體氣候相關風險管理流程。(TCFD P.13)</ix:nonNumeric><ix:nonNumeric name="ifrs-ibg:ExtentToWhichAndHowProcessesForIdentifyingAssessingPrioritisingAndMonitoringRisksAndOpportunitiesAreIntegratedIntoOrInformOverallRiskManagementProcessExplanatory" contextRef="From20220101to20221231" xml:lang="en" escape="true">The Group has established a hierarchical risk management process based on risk levels and unit functions. We have built complete climate risk management processes at the Group, business/ entity, and factory level according to different management levels and impacts from risk issues.( Sustainability Report P.79)</ix:nonNumeric></pre></span><span class="en"><pre></pre></span></td>
+					</tr>
+					<tr>
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">Topic(s) covered by integrated risk management disclosure</span><span class="en">Topic(s) covered by integrated risk management disclosure</span></td>
+						<td class="amt"></td>
+					</tr>
+					<tr>
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">Other disclosures about risk management</span><span class="en">Other disclosures about risk management</span></td>
+						<td class="amt"></td>
+					</tr>
+				</table> 
+				<br />
+			
+			<!-- 指標與目標 -->
+			<div id="MetricAndTarget"></div> 
+			<div class="rptidx"><span class="zh">指標與目標</span><span class="en">Metrics and targets</span></div> 
+				<table style="width:90%" style="table-layout:fixed;"> 
+					<tr>
+						<th colspan="3"><span class="zh">指標與目標 - Cross-industry climate-related metrics - GHG emissions disclosure basis</span><span class="en">Cross-industry climate-related metrics - GHG emissions disclosure basis</span></th>
+					</tr>
+					<tr> 
+						<th><span class="zh"></span></th> 
+						<th colspan='2'><span class="zh">2022年度</span><span class="en">2022</span></th>
+					</tr>
+					<tr> 
+						<th><span class="zh"></span></th>
+						<th><span class="zh">Consolidated accounting group</span><span class="en">Consolidated accounting group</span></th> 
+						<th><span class="zh">Other investees excluded from consolidated accounting group</span><span class="en">Other investees excluded from consolidated accounting group</span></th>
+					</tr>
+					<tr>
+						<td><span class="zh">Scope 1 and 2 GHG emissions</span><span class="en">Scope 1 and 2 GHG emissions</span></td>
+						<td class="amt"><span class="zh"><pre><ix:nonFraction name="ifrs-ibg:AbsoluteGrossScope1GHGEmissions" contextRef="Context_Duration_ConsolidatedAccountingGroupMember" format="ixt:numdotdecimal" scale="0" decimals="0" unitRef="tCO2e">237,946</ix:nonFraction></pre></span><span class="en"><pre><ix:nonFraction name="ifrs-ibg:AbsoluteGrossScope1GHGEmissions" contextRef="Context_Duration_ConsolidatedAccountingGroupMember" format="ixt:numdotdecimal" scale="0" decimals="0" unitRef="tCO2e">237,946</ix:nonFraction></pre></span></td>
+						<td class="amt"></td>
+					</tr>
+					<tr>
+						<td><span class="zh">　　Absolute gross Scope 1 GHG emissions</span><span class="en">　　Absolute gross Scope 1 GHG emissions</span></td>
+						<td class="amt"><span class="zh"><pre><ix:nonFraction name="ifrs-ibg:AbsoluteGrossScope1GHGEmissions" contextRef="Context_Duration_ConsolidatedAccountingGroupMember" format="ixt:numdotdecimal" scale="0" decimals="0" unitRef="tCO2e">237,946</ix:nonFraction></pre></span><span class="en"><pre><ix:nonFraction name="ifrs-ibg:AbsoluteGrossScope1GHGEmissions" contextRef="Context_Duration_ConsolidatedAccountingGroupMember" format="ixt:numdotdecimal" scale="0" decimals="0" unitRef="tCO2e">237,946</ix:nonFraction></pre></span></td>
+						<td class="amt"></td>
+					</tr>
+					<tr>
+						<td><span class="zh">　　Absolute gross location-based Scope 2 GHG emissions</span><span class="en">　　Absolute gross location-based Scope 2 GHG emissions</span></td>
+						<td class="amt"><span class="zh"><pre><ix:nonFraction name="ifrs-ibg:AbsoluteGrossLocationbasedScope2GHGEmissions" contextRef="Context_Duration_ConsolidatedAccountingGroupMember" format="ixt:numdotdecimal" scale="0" decimals="0" unitRef="tCO2e">5,772,920</ix:nonFraction></pre></span><span class="en"><pre><ix:nonFraction name="ifrs-ibg:AbsoluteGrossLocationbasedScope2GHGEmissions" contextRef="Context_Duration_ConsolidatedAccountingGroupMember" format="ixt:numdotdecimal" scale="0" decimals="0" unitRef="tCO2e">5,772,920</ix:nonFraction></pre></span></td>
+						<td class="amt"></td>
+					</tr>
+					<tr>
+						<td><span class="zh">　　Absolute gross Scope 1 and 2 GHG emissions</span><span class="en">　　Absolute gross Scope 1 and 2 GHG emissions</span></td>
+						<td class="amt"><span class="zh"><pre><ix:nonFraction name="ifrs-ibg:AbsoluteGrossLocationbasedScope2GHGEmissions" contextRef="Context_Duration_ConsolidatedAccountingGroupMember" format="ixt:numdotdecimal" scale="0" decimals="0" unitRef="tCO2e">6,010,866</ix:nonFraction></pre></span><span class="en"><pre><ix:nonFraction name="ifrs-ibg:AbsoluteGrossLocationbasedScope2GHGEmissions" contextRef="Context_Duration_ConsolidatedAccountingGroupMember" format="ixt:numdotdecimal" scale="0" decimals="0" unitRef="tCO2e">6,010,866</ix:nonFraction></pre></span></td>
+						<td class="amt"></td>
+					</tr>
+					<tr>
+						<td><span class="zh">Absolute gross Scope 3 GHG emissions</span><span class="en">Absolute gross Scope 3 GHG emissions</span></td>
+						<td class="amt" colspan="2"><span class="zh"><pre><ix:nonFraction name="ifrs-ibg:AbsoluteGrossScope3GHGEmissions" contextRef="From20220101to20221231" format="ixt:numdotdecimal" scale="0" decimals="0" unitRef="tCO2e">24,030,752</ix:nonFraction></pre></span><span class="en"><pre><ix:nonFraction name="ifrs-ibg:AbsoluteGrossScope3GHGEmissions" contextRef="From20220101to20221231" format="ixt:numdotdecimal" scale="0" decimals="0" unitRef="tCO2e">24,030,752</ix:nonFraction></pre></span></td>
+					</tr>
+					<tr>
+						<td><span class="zh">Absolute gross Scope 1, 2 and 3 GHG emissions</span><span class="en">Absolute gross Scope 1, 2 and 3 GHG emissions</span></td>
+						<td class="amt" colspan="2"><span class="zh"><pre><ix:nonFraction name="ifrs-ibg:AbsoluteGrossScope12And3GHGEmissions" contextRef="From20220101to20221231" format="ixt:numdotdecimal" scale="0" decimals="0" unitRef="tCO2e">29,507,554</ix:nonFraction></pre></span><span class="en"><pre><ix:nonFraction name="ifrs-ibg:AbsoluteGrossScope12And3GHGEmissions" contextRef="From20220101to20221231" format="ixt:numdotdecimal" scale="0" decimals="0" unitRef="tCO2e">29,507,554</ix:nonFraction></pre></span></td>
+					</tr>
+					<tr>
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">Approach used to measure GHG emissions</span><span class="en">Approach used to measure GHG emissions</span></td>
+						<td colspan="2"><span class="zh"><pre><ix:nonNumeric name="ifrs-ibg:ApproachUsedToMeasureGHGEmissionsExplanatory" contextRef="From20220101to20221231" xml:lang="zh" escape="true">ISO 14064-1 溫室氣體盤查 (TCFD P.32)</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-ibg:ApproachUsedToMeasureGHGEmissionsExplanatory" contextRef="From20220101to20221231" xml:lang="en" escape="true">ISO 14064-1 (TCFD P.32)</ix:nonNumeric></pre></span></td>
+					</tr>
+					<tr>
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">　　Measurement approach used in calculating GHG emissions if measured in accordance with GHG Protocol</span><span class="en">　　Measurement approach used in calculating GHG emissions if measured in accordance with GHG Protocol</span></td>
+						<td class="amt" colspan="2"></td>
+					</tr>
+					<tr>
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">　　Reason why measurement approach, inputs and assumptions used to measure GHG emissions chosen</span><span class="en">　　Reason why measurement approach, inputs and assumptions used to measure GHG emissions chosen</span></td>
+						<td class="amt" colspan="2"></td>
+					</tr>
+					<tr>
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">　　Changes to measurement approach, inputs and assumptions used to measure GHG emissions and reasons for changes</span><span class="en">　　Changes to measurement approach, inputs and assumptions used to measure GHG emissions and reasons for changes</span></td>
+						<td class="amt" colspan="2"></td>
+					</tr>
+					<tr>
+						<td><span class="zh">　　　　Changes made to measurement approach, inputs and assumptions used to measure GHG emissions</span><span class="en">　　　　Changes made to measurement approach, inputs and assumptions used to measure GHG emissions</span></td>
+						<td colspan="2"><span class="zh"><pre><ix:nonNumeric name="ifrs-sds:ChangesMadeToMeasurementApproachInputsAndAssumptionsUsedToMeasureGHGEmissions" contextRef="From20220101to20221231" xml:lang="en" escape="true">false</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-sds:ChangesMadeToMeasurementApproachInputsAndAssumptionsUsedToMeasureGHGEmissions" contextRef="From20220101to20221231" xml:lang="en" escape="true">false</ix:nonNumeric></pre></span></td>
+					</tr>
+					<tr>
+						<td><span class="zh">　　Method and measurement approach used in calculating GHG emissions if not measured in accordance with GHG Protocol</span><span class="en">　　Method and measurement approach used in calculating GHG emissions if not measured in accordance with GHG Protocol</span></td>
+						<td colspan="2"><span class="zh"><pre><ix:nonNumeric name="ifrs-sds:MethodAndMeasurementApproachUsedInCalculatingGHGEmissionsIfNotMeasuredInAccordanceWithGHGProtocolExplanatory" contextRef="From20220101to20221231" xml:lang="zh" escape="true">ISO 14064-1 溫室氣體盤查 (TCFD P.32)</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-sds:MethodAndMeasurementApproachUsedInCalculatingGHGEmissionsIfNotMeasuredInAccordanceWithGHGProtocolExplanatory" contextRef="From20220101to20221231" xml:lang="en" escape="true">ISO 14064-1 (TCFD P.32)</ix:nonNumeric></pre></span></td>
+					</tr>
+					<tr>
+						<td><span class="zh">　　Emission factors used in calculating GHG emissions</span><span class="en">　　Emission factors used in calculating GHG emissions</span></td>
+						<td class="amt" colspan="2"></td>
+					</tr>
+					<tr>
+						<td><span class="zh">　　Extent Scope 3 GHG emissions measured using inputs from specific activities within value chain</span><span class="en">　　Extent Scope 3 GHG emissions measured using inputs from specific activities within value chain</span></td>
+						<td class="amt" colspan="2"></td>
+					</tr>
+					<tr>
+						<td><span class="zh">　　Extent Scope 3 GHG emissions measured using verified inputs</span><span class="en">　　Extent Scope 3 GHG emissions measured using verified inputs</span></td>
+						<td class="amt" colspan="2"></td>
+					</tr>
+					<tr>
+						<td><span class="zh">　　Method and measurement approach used in calculating GHG emissions if not measured in accordance with GHG Protocol</span><span class="en">　　Method and measurement approach used in calculating GHG emissions if not measured in accordance with GHG Protocol</span></td>
+						<td colspan="2"><span class="zh"><pre><ix:nonNumeric name="ifrs-sds:MethodAndMeasurementApproachUsedInCalculatingGHGEmissionsIfNotMeasuredInAccordanceWithGHGProtocolExplanatory" contextRef="From20220101to20221231" xml:lang="zh" escape="true">ISO 14064-1 溫室氣體盤查 (TCFD P.32)</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-sds:MethodAndMeasurementApproachUsedInCalculatingGHGEmissionsIfNotMeasuredInAccordanceWithGHGProtocolExplanatory" contextRef="From20220101to20221231" xml:lang="en" escape="true">ISO 14064-1 (TCFD P.32)</ix:nonNumeric></pre></span></td>
+					</tr>
+					<tr>
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">Any contractual instruments that inform understanding of Scope 2 GHG emissions</span><span class="en">Any contractual instruments that inform understanding of Scope 2 GHG emissions</span></td>
+						<td colspan="2"><span class="zh"><pre><ix:nonNumeric name="ifrs-sds:AnyContractualInstrumentsThatInformUnderstandingOfScope2GHGEmissionsExplanatory" contextRef="From20220101to20221231" xml:lang="zh" escape="true">集團與森崴能源公司簽訂綠電採購合作備忘錄，宣示 2030 年實現「辦公室據點」100% 淨零排放目標，未來將採購約 236 萬度（kWh）綠電，並逐年增加採購量，預期至 2030 年累積達約 7,000 萬度（kWh）綠電(TCFD P.21)</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-sds:AnyContractualInstrumentsThatInformUnderstandingOfScope2GHGEmissionsExplanatory" contextRef="From20220101to20221231" xml:lang="en" escape="true">In 2022, we announced our plan to procure green electricity for factories in the Taiwan region. The Group signed a memorandum of cooperation with Shinfox Energy to procure green electricity and announced that we would achieve 100% net zero emissions in all office sites by 2030. In future, we plan to procure 2.36 million kWh of green electricity and increase our procurement volumes year by year; we expect to accumulate a total of 70 million kWh of green electricity usage by 2030. ( TCFD P.21)</ix:nonNumeric></pre></span></td>
+					</tr>
+					<tr>
+						<td><span class="zh">Absolute gross market-based Scope 2 GHG emissions</span><span class="en">Absolute gross market-based Scope 2 GHG emissions</span></td>
+						<td class="amt" colspan="2"><span class="zh"><pre><ix:nonFraction name="ifrs-ibg:AbsoluteGrossMarketbasedScope2GHGEmissions" contextRef="From20220101to20221231" format="ixt:numdotdecimal" scale="0" decimals="0" unitRef="tCO2e">5,199,433</ix:nonFraction></pre></span><span class="en"><pre><ix:nonFraction name="ifrs-ibg:AbsoluteGrossMarketbasedScope2GHGEmissions" contextRef="From20220101to20221231" format="ixt:numdotdecimal" scale="0" decimals="0" unitRef="tCO2e">5,199,433</ix:nonFraction></pre></span></td>
+					</tr>
+					<tr>
+						<td><span class="zh">Details of inclusion within Scope 3 GHG emissions</span><span class="en">Details of inclusion within Scope 3 GHG emissions</span></td>
+						<td class="amt" colspan="2"></td>
+					</tr>
+					<tr>
+						<td><span class="zh">　　Categories included within measure of Scope 3 GHG emissions</span><span class="en">　　Categories included within measure of Scope 3 GHG emissions</span></td>
+						<td class="amt" colspan="2"></td>
+					</tr>
+					<tr>
+						<style>
+							td pre{
+							display: block;
+							word-break: normal;
+							white-space: pre-wrap;
+							}
+						</style>
+						<td><span class="zh">Effects of significant events and changes in circumstances relevant to GHG emissions that occur between reporting dates in value chain and general purpose financial reports</span><span class="en">Effects of significant events and changes in circumstances relevant to GHG emissions that occur between reporting dates in value chain and general purpose financial reports</span></td>
+						<td class="amt" colspan="2"></td>
+					</tr>
+					<tr>
+						<td><span class="zh">How Scope 3 GHG emissions are managed if impracticable to estimate</span><span class="en">How Scope 3 GHG emissions are managed if impracticable to estimate</span></td>
+						<td class="amt" colspan="2"></td>
+					</tr>
+				</table> 
+				<br />
+				
+			<!-- 指標與目標 -->
+			<div></div>
+				<table style="width:90%" style="table-layout:fixed;"> 
+					<tr>
+						<th colspan="2"><span class="zh">指標與目標 - Cross-industry climate-related metrics</span><span class="en">Cross-industry climate-related metrics</span></th>
+					</tr>
+					<tr> 
+						<th><span class="zh"></span></th> 
+						<th><span class="zh">2022年度</span><span class="en">2022</span></th>
+					</tr>
+					<tr>
+						<td><span class="zh">Amount and percentage of assets or business activities vulnerable to climate-related transition risks</span><span class="en">Amount and percentage of assets or business activities vulnerable to climate-related transition risks</span></td>
+						<td class="amt"></td>
+					</tr>
+					<tr>
+						<td><span class="zh">Amount and percentage of assets or business activities vulnerable to climate-related physical risks</span><span class="en">Amount and percentage of assets or business activities vulnerable to climate-related physical risks</span></td>
+						<td class="amt"></td>
+					</tr>
+					<tr>
+						<td><span class="zh">Amount and percentage of assets or business activities aligned with climate-related opportunities</span><span class="en">Amount and percentage of assets or business activities aligned with climate-related opportunities</span></td>
+						<td class="amt"></td>
+					</tr>
+					<tr>
+						<td><span class="zh">Amount of capital expenditure, financing or investment deployed towards climate-related risks and opportunities</span><span class="en">Amount of capital expenditure, financing or investment deployed towards climate-related risks and opportunities</span></td>
+						<td class="amt"></td>
+					</tr>
+				</table> 
+				<br />
+			
+			<!-- 指標與目標 - Internal carbon prices -->
+			<div></div>
+				<table style="width:90%" style="table-layout:fixed;"> 
+					<tr>
+						<th colspan="2"><span class="zh">指標與目標 - Cross-industry climate-related metrics - Internal carbon prices</span><span class="zh">Cross-industry climate-related metrics - Internal carbon prices</span></th>
+					</tr>
+					<tr> 
+						<th><span class="zh"></span></th> 
+						<th><span class="zh">2022年度</span><span class="en">2022</span></th>
+					</tr>
+					<tr>
+						<td><span class="zh">Explanation of whether and how carbon price is applied in decision-making</span><span class="en">Explanation of whether and how carbon price is applied in decision-making</span></td>
+						<td class="amt"></td>
+					</tr>
+					<tr>
+						<td><span class="zh">　　Entity applies carbon price in decision-making</span><span class="en">　　Entity applies carbon price in decision-making</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-sds:EntityAppliesCarbonPriceInDecisionmaking" contextRef="From20220101to20221231" xml:lang="en" escape="true">false</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-sds:EntityAppliesCarbonPriceInDecisionmaking" contextRef="From20220101to20221231" xml:lang="en" escape="true">false</ix:nonNumeric></pre></span></td>
+					</tr>
+					<tr>
+						<td><span class="zh">Price for each metric tonne of GHG emissions used to assess costs of GHG emissions</span><span class="en">Price for each metric tonne of GHG emissions used to assess costs of GHG emissions</span></td>
+						<td class="amt"></td>
+					</tr>
+				</table> 
+				<br />
+			
+			<!-- 指標與目標 - Remuneration disclosure -->
+			<div></div>
+				<table style="width:90%" style="table-layout:fixed;"> 
+					<tr>
+						<th colspan="2"><span class="zh">指標與目標 - Cross-industry climate-related metrics - Remuneration disclosure</span><span class="en">Cross-industry climate-related metrics - Remuneration disclosure</span></th>
+					</tr>
+					<tr> 
+						<th><span class="zh"></span></th> 
+						<th><span class="zh">2022年度</span><span class="en">2022</span></th>
+					</tr>
+					<tr>
+						<td><span class="zh">Whether and how related performance metrics are included in remuneration policies</span><span class="en">Whether and how related performance metrics are included in remuneration policies</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-sds:WhetherAndHowRelatedPerformanceMetricsAreIncludedInRemunerationPoliciesExplanatory" contextRef="From20220101to20221231" xml:lang="zh" escape="true">鴻海為鼓勵、有效提升員工對於氣候變遷的重視，並融為集團組織的核心文化，集團大陸地區每年將節能減碳目標細部分配至各事業群，制定《節能管理考核項目與評分規則》，依據規則中的節能管理、節能體系、節能實施、節能督導、節能 KPI 等項目進行評分，每季、每年皆會進行全面考核，並每年定期檢討與修正，頒發金賞獎等獎項，並針對表現優秀之團隊與個人給予獎勵金，獎勵金包含獎勵團隊基層人員，以及後續單位推動節能專案之用。2021 年總計發放 157 萬元新台幣，共表揚 5 個團隊和 5 位節能工作推動表現出色個人。(p.20)</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-sds:WhetherAndHowRelatedPerformanceMetricsAreIncludedInRemunerationPoliciesExplanatory" contextRef="From20220101to20221231" xml:lang="en" escape="true">To encourage and effectively enhance employee emphasis on climate change, we have incorporated relevant concepts in the Group’s core organizational culture. We distribute energy and carbon reduction targets to our businesses in the China region each year and formulate the “Appraisal Items and Scoring Guidelines for Energy Management” which includes scores for energy conservation management, energy conservation systems, energy conservation implementations, supervision of energy conservation, and other energy conservation KPIs. We conduct comprehensive quarterly and annual appraisals, as well as periodic reviews and corrections each year, and present awards and monetary rewards to outstanding teams and individuals to provide an incentive for entry-level personnel and for subsequent implementation of energy conservation projects. In 2021, we awarded 1.57 million NTD to 5 teams and 5 individuals with outstanding energy-saving contributions. ( TCFD P20)</ix:nonNumeric></pre></span></td>
+					</tr>
+					<tr>
+						<td><span class="zh">　　Climate-related performance metrics are included in remuneration policies</span><span class="en">　　Climate-related performance metrics are included in remuneration policies</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-sds:ClimaterelatedPerformanceMetricsAreIncludedInRemunerationPolicies" contextRef="From20220101to20221231" xml:lang="en" escape="true">true</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-sds:ClimaterelatedPerformanceMetricsAreIncludedInRemunerationPolicies" contextRef="From20220101to20221231" xml:lang="en" escape="true">true</ix:nonNumeric></pre></span></td>
+					</tr>
+					<tr>
+						<td><span class="zh">Percentage of executive management remuneration recognised in the current period linked to climate-related considerations</span><span class="en">Percentage of executive management remuneration recognised in the current period linked to climate-related considerations</span></td>
+						<td class="amt"></td>
+					</tr>
+				</table> 
+				<br />
+			
+			<!-- 指標與目標 - Climate-related targets -->
+			<div></div>
+				<table style="width:90%" style="table-layout:fixed;"> 
+					<tr>
+						<th colspan="2"><span class="zh">指標與目標 - Climate-related targets</span><span class="zh">Climate-related targets</span></th>
+					</tr>
+					<tr> 
+						<th><span class="zh"></span></th> 
+						<th><span class="zh">2022年度</span><span class="en">2022</span></th>
+					</tr>
+					<tr>
+						<td><span class="zh">Metric used to set target and to monitor progress</span><span class="en">Metric used to set target and to monitor progress</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-sds:MetricUsedToSetTargetAndToMonitorProgressExplanatory" contextRef="From20220101to20221231" xml:lang="zh" escape="true">[ 水資源管理 ] • 2020 年用水密集度為 0.1618 噸 / 萬元新台幣 [ 減廢循環 ] • 2020 年廠區塑料內循環比例為 44% • 將與 UL 國際認證公司（以下簡稱 UL）簽署合作備 忘錄，預計將龍華廠區打造為「零廢園區」示範基地
+• 制定《節能立項審核作業辦法》與《節能管理稽查辦 法》，每年年初訂定節能目標 • 實際節能率達5.18%，成功達成年度節能4.5%目標， 且較基準年節能 26.06%（2016~2020 年），成功達成集團的中長期節能目標 • 針對各節能專案落實進行稽查，2020 年，集團共有 1,551 項違規專案，皆已完成改善措施，集團因此共 減少用電浪費約 16.7 萬 kWh，節約成本 4,110 萬元 新台幣
+• 2020 年溫室氣體範疇一及二 ( 市場基礎 ) 排放量為 5,476,802 公噸 CO2e • 展開節能改造項目 1,751 項，總計減碳 312,083 公噸 CO2e，節能效益高達近 13.39 億元新台幣
+• 輔導推動 88 家電子供應商完成碳盤查，40 家電子供應商完成 ISO14064-1 查證</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-sds:MetricUsedToSetTargetAndToMonitorProgressExplanatory" contextRef="From20220101to20221231" xml:lang="en" escape="true">[Water Resource Management] • Reduce water use intensity by 6% before 2025.
+[Pollution Prevention] • Complete 100% of industrial wastewater discharge and water quality monitoring system installations by 2025 • Establish at least 3 pilot factories with air quality monitoring systems by 2025.
+[Waste Reduction and Recycling] • Raise proportion of internally recycled plastics in factories to 60% by 2025 • Obtain at least 5 UL2799 Zero Waste to Landfill Operations Gold-Level Certifications by 2025.
+( TCFD P.30)</ix:nonNumeric></pre></span></td>
+					</tr>
+					<tr>
+						<td><span class="zh">　　Metric used to set target</span><span class="en">　　Metric used to set target</span></td>
+						<td class="amt"></td>
+					</tr>
+					<tr>
+						<td><span class="zh">　　Metric(s) used to monitor progress</span><span class="en">　　Metric(s) used to monitor progress</span></td>
+						<td class="amt"></td>
+					</tr>
+					<tr>
+						<td><span class="zh">Description of specific quantitative or qualitative target set or required to meet</span><span class="en">Description of specific quantitative or qualitative target set or required to meet</span></td>
+						<td class="amt"></td>
+					</tr>
+					<tr>
+						<td><span class="zh">　　Target value, text</span><span class="en">　　Target value, text</span></td>
+						<td class="amt"></td>
+					</tr>
+					<tr>
+						<td><span class="zh">　　Target value, numeric</span><span class="en">　　Target value, numeric</span></td>
+						<td class="amt"></td>
+					</tr>
+					<tr>
+						<td><span class="zh">　　Target value, percentage</span><span class="en">　　Target value, percentage</span></td>
+						<td class="amt"></td>
+					</tr>
+					<tr>
+						<td><span class="zh">Objective of climate-related target</span><span class="en">Objective of climate-related target</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-sds:ObjectiveOfClimaterelatedTargetExplanatory" contextRef="From20220101to20221231" xml:lang="zh" escape="true">鴻海制訂 6 大 ESG 策略與 32 項長程目標為永續經營的方針，內容涵蓋「綠色智能、 循環經濟、幸福發展、共贏共榮、鴻傳永續及海納治理」。基於集團的 ESG 策略，面對日 益嚴重的氣候議題下瞭解到氣候相關風險管理的急迫性，規劃了三個評估階段以進行盤點內部營運現況、法規與客戶要求和期待，並參考國際趨勢發展與研究報告，評估氣候相關風險與機會對集團的影響，提出相關應對措施進行氣候管理，完善鑑別與評估氣候變遷的風險與機會的機制，建立集團環境永續的良好文化。(TCFD-P7)</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-sds:ObjectiveOfClimaterelatedTargetExplanatory" contextRef="From20220101to20221231" xml:lang="en" escape="true">Hon Hai’s sustainable management principles include 6 major ESG strategies and 32 long-term goals encompassing “Green Solutions, Circular Economy, Employee Satisfaction, Win-Win Strategy, Business Sustainability, and Corporate Governance.” Increasingly serious climate issues have alerted us to an urgent need for climate risk management. Hon Hai’s ESG strategies include three stages of assessments to inventory internal operations, regulations, and customer requirements and expectations. We also reference international trends and research reports to evaluate climate-related risks and opportunities as well as their impacts on Hon Hai, propose corresponding measures for climate management, and comprehensively identify and assess climate change risk and opportunity mechanisms to establish a corporate culture of environmental sustainability.( TCFD P.7)</ix:nonNumeric></pre></span></td>
+					</tr>
+					<tr>
+						<td><span class="zh">Part of entity to which climate-related target applies</span><span class="en">Part of entity to which climate-related target applies</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-sds:PartOfEntityToWhichClimaterelatedTargetApplies" contextRef="From20220101to20221231" xml:lang="zh" escape="true">集團於2020年提出三大氣候目標： 
+1.遵守鴻海廠區當地政府的 NDC或碳排政策。
+2.鴻海價值鏈的溫室氣體排放與《巴黎氣候協定》目標保持一致並於2050年之前實現溫室氣體淨零排放目標。
+3.回應氣候行動 100+ (Climate Action 100+) 指導委員會提出的三大目標並採取行動：(1)強化氣候變遷治理；(2)針對鴻海價值鏈的溫室氣體排放採取行動；(3)依照氣候相關財務揭露建議 (TCFD)進行資訊揭露。
+(TCFD-P9)</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-sds:PartOfEntityToWhichClimaterelatedTargetApplies" contextRef="From20220101to20221231" xml:lang="en" escape="true">Hon Hai proposed three climate goals in 2020: 
+1. Hon Hai factories should comply with local governmental NDCs and carbon emission policies. 
+2. Align GHG emissions of the Hon Hai value chain with the goals of the Paris Agreement and realize our goal of net zero GHG emissions by 2050. 
+3. Respond to and act upon the three targets proposed by the Climate Action 100+ steering committee: (1) Strengthen climate change governance; 
+ (2) Implement actions relating to GHG emissions within Hon Hai’s value chain; (3) Provide disclosures in accordance with the Task Force on Climate-Related Financial Disclosures (TCFD).(TCFD P.9)</ix:nonNumeric></pre></span></td>
+					</tr>
+					<tr>
+						<td><span class="zh">Period over which target applies</span><span class="en">Period over which target applies</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-sds:PeriodOverWhichTargetApplies" contextRef="From20220101to20221231" xml:lang="zh" escape="true">2050 年 (永續報告書P.79)</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-sds:PeriodOverWhichTargetApplies" contextRef="From20220101to20221231" xml:lang="en" escape="true">2050</ix:nonNumeric></pre></span></td>
+					</tr>
+					<tr>
+						<td><span class="zh">Base period from which progress for target is measured</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-sds:BasePeriodFromWhichProgressForTargetIsMeasured" contextRef="From20220101to20221231" xml:lang="en" escape="true">2021</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-sds:BasePeriodFromWhichProgressForTargetIsMeasured" contextRef="From20220101to20221231" xml:lang="en" escape="true">2021</ix:nonNumeric></pre></span></td>
+					</tr>
+					<tr>
+						<td><span class="zh">Milestones and interim targets</span><span class="en">Milestones and interim targets</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-sds:MilestonesAndInterimTargetsExplanatory" contextRef="From20220101to20221231" xml:lang="zh" escape="true">2025 年溫室氣體排放降低 21%；2030 年降低 42%；2035 年降低 63%。 (永續報告書P.79)</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-sds:MilestonesAndInterimTargetsExplanatory" contextRef="From20220101to20221231" xml:lang="en" escape="true">Using 2020 as the base year, reduce emissions by 21% before 2025; by 42% before 2030; and by 63% before 2035. ( TCFD P.31)</ix:nonNumeric></pre></span></td>
+					</tr>
+					<tr>
+						<td><span class="zh">Climate-related target is absolute target or intensity target</span><span class="en">Climate-related target is absolute target or intensity target</span></td>
+						<td class="amt"></td>
+					</tr>
+					<tr>
+						<td><span class="zh">How climate-related target informed by latest international agreement on climate change and jurisdictional commitments arising from it</span><span class="en">How climate-related target informed by latest international agreement on climate change and jurisdictional commitments arising from it</span></td>
+						<td class="amt"></td>
+					</tr>
+					<tr>
+						<td><span class="zh">Approach to setting and reviewing target, and monitoring progress</span><span class="en">Approach to setting and reviewing target, and monitoring progress</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-sds:ApproachToSettingAndReviewingTargetAndMonitoringProgressExplanatory" contextRef="From20220101to20221231" xml:lang="zh" escape="true">2023 年 4 月鴻海正式通過 SBTi 1.5° C 目標驗證，意味著我們在應對氣候變化 方面的承諾和努力得到了國際社會的認可，未來鴻海將朝著該目標不斷前進，提 升企業永續競爭力。(永續報告書 P.78)</ix:nonNumeric></pre></span><span class="en"><pre></pre></span></td>
+					</tr>
+					<tr>
+						<td><span class="zh">　　Climate-related target and methodology validated by third party</span><span class="en">　　Climate-related target and methodology validated by third party</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-sds:ClimaterelatedTargetAndMethodologyValidatedByThirdParty" contextRef="From20220101to20221231" xml:lang="en" escape="true">true</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-sds:ClimaterelatedTargetAndMethodologyValidatedByThirdParty" contextRef="From20220101to20221231" xml:lang="en" escape="true">true</ix:nonNumeric></pre></span></td>
+					</tr>
+					<tr>
+						<td><span class="zh">Performance against target and analysis of trends or changes in performance</span><span class="en">Performance against target and analysis of trends or changes in performance</span></td>
+						<td class="amt"></td>
+					</tr>
+					<tr>
+						<td><span class="zh">Revisions to target</span><span class="en">Revisions to target</span></td>
+						<td class="amt"></td>
+					</tr>            
+					<tr>
+						<td><span class="zh">　　Target has been revised</span><span class="en">　　Target has been revised</span></td>
+						<td class="amt"></td>
+					</tr>
+					<tr>
+						<td><span class="zh">GHG emission target details</span><span class="en">GHG emission target details</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-sds:GHGEmissionTargetDetailsExplanatory" contextRef="From20220101to20221231" xml:lang="zh" escape="true">集團設定 2050 年實現溫室氣體淨零排放，並以 2020 年為基礎年，2025 年溫室氣體排放降低 21%；2030 年降低 42%；2035 年降低 63%。 (永續報告書 P.79)</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-sds:GHGEmissionTargetDetailsExplanatory" contextRef="From20220101to20221231" xml:lang="en" escape="true">Using 2020 as the base year, reduce emissions by 21% before 2025; by 42% before 2030; and by 63% before 2035. ( TCFD P.31)</ix:nonNumeric></pre></span></td>
+					</tr>
+					<tr>
+						<td><span class="zh">　　Greenhouse gases covered by target</span><span class="en">　　Greenhouse gases covered by target</span></td>
+						<td class="amt"></td>
+					</tr>
+					<tr>
+						<td><span class="zh">　　Emissions scopes covered by target</span><span class="en">　　Emissions scopes covered by target</span></td>
+						<td class="amt"></td>
+					</tr>
+					<tr>
+						<td><span class="zh">　　Gross or net GHG emissions target</span><span class="en">　　Gross or net GHG emissions target</span></td>
+						<td class="amt"></td>
+					</tr>
+					<tr>
+						<td><span class="zh">　　Climate-related target was derived using sectoral decarbonisation approach</span><span class="en">　　Climate-related target was derived using sectoral decarbonisation approach</span></td>
+						<td><span class="zh"><pre><ix:nonNumeric name="ifrs-sds:ClimaterelatedTargetWasDerivedUsingSectoralDecarbonisationApproach" contextRef="From20220101to20221231" xml:lang="en" escape="true">true</ix:nonNumeric></pre></span><span class="en"><pre><ix:nonNumeric name="ifrs-sds:ClimaterelatedTargetWasDerivedUsingSectoralDecarbonisationApproach" contextRef="From20220101to20221231" xml:lang="en" escape="true">true</ix:nonNumeric></pre></span></td>
+					</tr>
+				</table> 
+				<br />
+	
+			<!-- 永續揭露主題及指標 -->
+			<div id="TopicAndIndex"></div> 
+			<div class="rptidx"><span class="zh"></span><span class="en"></span></div> 
+				<table style="width:90%"> 
+					<tr><th colspan="3"><span class="zh">永續揭露主題及指標</span><span class="en">Sustainability Disclosure Topics and Metrics</span></th></tr> 
+					<tr> 
+						<th><span class="zh">主題</span><span class="en">Topic</span></th> 
+						<th><span class="zh">指標</span><span class="en">Metric</span></th> 
+						<th><span class="zh">2022年度</span><span class="en">2022</span></th>
+					</tr> 
+					<tr> 
+						<td style="text-align:center" rowspan="5"><span class="zh">水管理</span><span class="en">Water Management</span></td>
+						<td><span class="zh">        Water management disclosure</span><span class="en">        Water management disclosure</span></td>
+						<td><span class="zh"><pre class="water-management"><ix:nonNumeric name="ifrs-ibg:WaterManagementDisclosureExplanatory" contextRef="From20220101to20221231" xml:lang="zh" escape="true">水管理如下：</ix:nonNumeric></pre></span><span class="zh"><pre></pre></span></td>
+					</tr> 
+					<tr> 
+						<td><span class="zh">　　總取水量</span><span class="en">Total water withdrawn</span></td>
+						<td class="amt"><span class="zh"><pre><ix:nonFraction name="ifrs-ibg:WaterWithdrawn" contextRef="From20220101to20221231" format="ixt:numdotdecimal" scale="0" decimals="0" unitRef="m3">91,470,724</ix:nonFraction></pre></span><span class="en"><pre><ix:nonFraction name="ifrs-ibg:WaterWithdrawn" contextRef="From20220101to20221231" format="ixt:numdotdecimal" scale="0" decimals="0" unitRef="m3">91,470,724</ix:nonFraction></pre></span></td>
+					</tr> 
+					<tr> 
+						<td><span class="zh">　　總耗水量</span><span class="en">Total water consumed</span></td>
+						<td class="amt"><span class="zh"><pre><ix:nonFraction name="ifrs-ibg:WaterConsumed" contextRef="From20220101to20221231" format="ixt:numdotdecimal" scale="0" decimals="0" unitRef="m3">4,201,801</ix:nonFraction></pre></span><span class="en"><pre><ix:nonFraction name="ifrs-ibg:WaterConsumed" contextRef="From20220101to20221231" format="ixt:numdotdecimal" scale="0" decimals="0" unitRef="m3">4,201,801</ix:nonFraction></pre></span></td>
+					</tr> 
+					<tr>
+						<td><span class="zh">　　總取水量，於基線水壓力高或極高區域之百分比</span><span class="en">Total water withdrawn, percentage of each in regions with High or Extremely High Baseline Water Stress</span></td>
+						<td class="amt"><span class="zh"><pre><ix:nonFraction name="ifrs-ibg:WaterWithdrawnPercentageInRegionsWithHighOrExtremelyHighBaselineWaterStress" contextRef="From20220101to20221231" format="ixt:numdotdecimal" scale="-2" decimals="3" unitRef="Pure">48.3</ix:nonFraction></pre></span><span class="en"><pre><ix:nonFraction name="ifrs-ibg:WaterWithdrawnPercentageInRegionsWithHighOrExtremelyHighBaselineWaterStress" contextRef="From20220101to20221231" format="ixt:numdotdecimal" scale="-2" decimals="3" unitRef="Pure">48.3</ix:nonFraction></pre></span></td>
+					</tr> 
+					<tr> 
+						<td><span class="zh">　　總耗水量，於基線水壓力高或極高區域之百分比</span><span class="en">Total water consumed, percentage of each in regions with High or Extremely High Baseline Water Stress</span></td>
+						<td class="amt"><span class="zh"><pre><ix:nonFraction name="ifrs-ibg:WaterConsumedPercentageInRegionsWithHighOrExtremelyHighBaselineWaterStress" contextRef="From20220101to20221231" format="ixt:numdotdecimal" scale="-2" decimals="4" unitRef="Pure">29.31</ix:nonFraction> </pre></span><span class="en"><pre></pre></span></td>
+					</tr>
+					<tr> 
+						<td style="text-align:center" rowspan="1"><span class="zh">產品生命週期管理</span><span class="en">Product Lifecycle Management</span></td>
+						<td><span class="zh">        Product lifecycle management disclosure</span><span class="en">        Product lifecycle management disclosure</span></td>
+						<td><pre class="Product-lifecycle-management"><span class="zh"><ix:nonNumeric name="ifrs-ibg:ProductLifecycleManagementDisclosureExplanatory" contextRef="From20220101to20221231" xml:lang="zh" escape="true">產品生命週期管理：蒐集資料中，未來將予以揭露。</ix:nonNumeric></pre></span><span class="en"><pre></pre></td>
+					</tr>
+				</table> 
+				<br />
+				
+			<!-- 活動指標 -->
+			<div id="Activity-metric"></div> 
+			<div class="rptidx"><span class="zh"></span><span class="en"></span></div> 
+				<table style="width:90%"> 
+					<tr><th colspan="2"><span class="zh">活動指標</span><span class="en">Activity Metrics</span></th></tr> 
+					<tr> 
+						<th><span class="zh">活動指標</span><span class="en">Activity Metrics</span></th> 
+						<th><span class="zh">2022年度</span><span class="en">2022</span></th>
+					</tr>
+					<tr> 
+						<td><span class="zh">製造廠所之數量</span><span class="en">Number of manufacturing facilities</span></td>
+						<td class="amt"><span class="zh"><pre><ix:nonFraction name="ifrs-ibg:FacilitiesNumber" contextRef="Context_Instant_ManufacturingFacilityMember" format="ixt:numdotdecimal" scale="0" decimals="0" unitRef="Number">70</ix:nonFraction></pre></span><span class="en"><pre><ix:nonFraction name="ifrs-ibg:FacilitiesNumber" contextRef="Context_Instant_ManufacturingFacilityMember" format="ixt:numdotdecimal" scale="0" decimals="0" unitRef="Number">70</ix:nonFraction></pre></span></td>
+					</tr> 
+					<tr> 
+						<td><span class="zh">製造廠所之面積</span><span class="en">Area of manufacturing facilities</span></td>
+						<td class="amt"><span class="zh"><pre><ix:nonFraction name="ifrs-ibg:FacilitiesArea" contextRef="Context_Instant_ManufacturingFacilityMember" format="ixt:numdotdecimal" scale="0" decimals="0" unitRef="SquareFoot">2,433,074,311</ix:nonFraction></pre></span><span class="en"><pre><ix:nonFraction name="ifrs-ibg:FacilitiesArea" contextRef="Context_Instant_ManufacturingFacilityMember" format="ixt:numdotdecimal" scale="0" decimals="0" unitRef="SquareFoot">2,433,074,311</ix:nonFraction></pre></span></td>
+					</tr> 
+					<tr> 
+						<td><span class="zh">員工人數</span><span class="en">Number of employees</span></td>
+						<td class="amt"><span class="zh"><pre><ix:nonFraction name="ifrs-ibg:EmployeesNumber" contextRef="AsOf20221231" format="ixt:numdotdecimal" scale="0" decimals="0" unitRef="Number">925,890</ix:nonFraction></pre></span><span class="en"><pre><ix:nonFraction name="ifrs-ibg:EmployeesNumber" contextRef="AsOf20221231" format="ixt:numdotdecimal" scale="0" decimals="0" unitRef="Number">925,890</ix:nonFraction></pre></span></td>
+					</tr> 
+				</table> 
+				<br />  
+			<br />
+		<br /> 
+	</div> 
+</body> 
+</html> 
+
+<!--This instance document is created by CCSu-->
